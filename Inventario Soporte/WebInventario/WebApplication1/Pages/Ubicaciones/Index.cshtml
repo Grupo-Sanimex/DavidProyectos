@@ -1,0 +1,54 @@
+﻿@page
+@model WebAppInventarioS.Pages.Ubicaciones.IndexModel
+@{
+	ViewData["Title"] = "Lista de Ubicaciones";
+}
+
+<h1>Ubicaciones</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Zona</th>
+            <th>Region</th>
+            <th>Centro</th>
+            <th>Estado</th>
+            <th>Sucursal</th>
+            <th>Status</th>
+            <th>Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var ubicacion in Model.Ubicaciones)
+        {
+            <tr>
+                <td>@ubicacion.Zona</td>
+                <td>@ubicacion.Region</td>
+                <td>@ubicacion.Centro</td>
+                <td>@ubicacion.Estado</td>
+                <td>@ubicacion.Sucursal</td>
+                <td>
+                    @if (ubicacion.Status)
+                    {
+                        <span class="badge bg-success">Activo</span>
+                    }
+                    else
+                    {
+                        <span class="badge bg-danger">Inactivo</span>
+                    }
+                </td>
+                <td>
+                    <a class="btn btn-secondary" asp-page="./Details" asp-route-id="@ubicacion.IdUbicacion">Detalles</a> 
+                    <a class="btn btn-warning" asp-page="./Edit" asp-route-id="@ubicacion.IdUbicacion">Editar</a> 
+                    <a class="btn btn-danger" asp-page="./Delete" asp-route-id="@ubicacion.IdUbicacion">Baja</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<p>
+    <a class="btn btn-primary" asp-page="./Create">Crear Nueva Ubicacion</a>
+</p>
+
+

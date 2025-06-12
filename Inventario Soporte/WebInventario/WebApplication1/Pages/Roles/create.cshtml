@@ -1,0 +1,24 @@
+﻿@page
+@model WebAppInventarioS.Pages.Roles.createModel
+@{
+	ViewData["Title"] = "Crear Rol";
+}
+<h1>Crear Rol</h1>
+
+<div class="d-flex justify-content-center mt-5">
+    <form method="post" class="w-50">
+    <div class="form-group">
+        <label asp-for="Rol.NombreRol"></label>
+        <input asp-for="Rol.NombreRol" class="form-control" />
+        <span asp-validation-for="Rol.NombreRol" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <br />
+    </div>
+    <button type="submit" class="btn btn-primary">Crear</button>
+</form>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

@@ -1,0 +1,6 @@
+@WebApiInventarioEntity_HostAddress = http://localhost:5076
+
+GET {{WebApiInventarioEntity_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

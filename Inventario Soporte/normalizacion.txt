@@ -1,0 +1,44 @@
+excel INVENTARIO DE EQUIPO
+Equipo_Estatus	
+Empresa	
+Fecha_Ultima_Captura
+Zona	
+Region	
+Centro	
+Estado	
+Sucursal	
+Departamento	
+Nombre_Empleado	
+Usuario_Windows	
+Equipo	
+Marca	
+Modelo	
+Numero Serie	
+Etiqueta	
+IP	
+RAM	
+Disco Duro	
+Procesador	
+SO	
+Renovar	
+Elaboro_Resposiva	
+Fecha_Ultimo_Mantto
+
+Excel CUENTAS LICENCIAS OFFICE 365
+
+CUENTA 	
+NOMBRE EQUIPO	
+NUMERO SERIE	
+MARCA/MODELO	
+DEPARTAMENTO	
+SUCURSAL	
+USUARIO	PUESTO
+
+Excel ALTA DE USUARIO
+Nombre	
+Puesto	
+Sucursal	
+Usuario AD	
+Correo	
+Pass	
+Acceso

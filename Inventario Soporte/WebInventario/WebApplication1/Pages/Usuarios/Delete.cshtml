@@ -1,0 +1,32 @@
+﻿@page
+@model WebAppInventarioS.Pages.Usuarios.DeleteModel
+@{
+	ViewData["Title"] = "Eliminar Usuario";
+}
+<h1>Baja Usuario</h1>
+
+<h3>¿Estás seguro de que deseas dar de baja este Usuario?</h3>
+
+@if (Model.Usuarios != null)
+{
+    <dl class="row">
+        <dt class="col-sm-2">Nombre Completo</dt>
+		<dd class="col-sm-10">@Model.Usuarios.NombreCompleto</dd>
+        <dt class="col-sm-2">Usuario Acceso</dt>
+        <dd class="col-sm-10">@Model.Usuarios.UsuarioSesion</dd>
+        <dt class="col-sm-2">Rol</dt>
+        <dd class="col-sm-10">@Model.Usuarios.NombreRol</dd>
+		<dt class="col-sm-2">Status</dt>
+		<dd class="col-sm-10">@(Model.Usuarios.Status ? "Activo" : "Inactivo")</dd>
+    </dl>
+
+    <form method="post">
+        <input type="hidden" asp-for="Usuarios.IdUsuario" />
+        <button type="submit" class="btn btn-danger">Baja</button>
+        <a asp-page="./Index" class="btn btn-secondary">Cancelar</a>
+    </form>
+}
+else
+{
+    <p>Usuario No encontrada</p>
+}

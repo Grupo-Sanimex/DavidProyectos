@@ -1,0 +1,42 @@
+﻿@page
+@model WebAppInventarioS.Pages.Departamentos.IndexModel
+@{
+	ViewData["Title"] = "Departamentos";
+}
+<h1>Departamentos</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Nombre</th>
+            <th>Status</th>
+            <th>Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var departamento in Model.departamentos)
+        {
+            <tr>
+                <td>@departamento.NombreDepartamento</td>
+                <td>
+                    @if (departamento.Status)
+                    {
+                        <span class="badge bg-success">Activo</span>
+                    }
+                    else
+                    {
+                        <span class="badge bg-danger">Inactivo</span>
+					}
+                <td>
+                    <a class="btn btn-secondary" asp-page="./Details" asp-route-id="@departamento.IdDepartamento">Detalles</a> 
+                    <a class="btn btn-warning" asp-page="./Edit" asp-route-id="@departamento.IdDepartamento">Editar</a> 
+                    <a class="btn btn-danger" asp-page="./Delete" asp-route-id="@departamento.IdDepartamento">Baja</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<p>
+    <a class="btn btn-success" asp-page="./Create">Crear Nuevo Departamentos</a>
+</p>

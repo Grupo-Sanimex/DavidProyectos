@@ -1,0 +1,109 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Administrador\\Videos\\dwr\\laboral\\Nueva carpeta\\Net8c#Entity\\webSoporte\\weAppSoporte\\WebApplication1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BB031CD9-DD93-4E34-BA3A-788F87B302B8}|WebApplication1\\WebAppSoporte.csproj|c:\\users\\administrador\\videos\\dwr\\laboral\\nueva carpeta\\net8c#entity\\websoporte\\weappsoporte\\webapplication1\\webapplication1\\models\\equipo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB031CD9-DD93-4E34-BA3A-788F87B302B8}|WebApplication1\\WebAppSoporte.csproj|solutionrelative:webapplication1\\models\\equipo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB031CD9-DD93-4E34-BA3A-788F87B302B8}|WebApplication1\\WebAppSoporte.csproj|c:\\users\\administrador\\videos\\dwr\\laboral\\nueva carpeta\\net8c#entity\\websoporte\\weappsoporte\\webapplication1\\webapplication1\\pages\\equipos\\edit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB031CD9-DD93-4E34-BA3A-788F87B302B8}|WebApplication1\\WebAppSoporte.csproj|solutionrelative:webapplication1\\pages\\equipos\\edit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB031CD9-DD93-4E34-BA3A-788F87B302B8}|WebApplication1\\WebAppSoporte.csproj|c:\\users\\administrador\\videos\\dwr\\laboral\\nueva carpeta\\net8c#entity\\websoporte\\weappsoporte\\webapplication1\\webapplication1\\pages\\equipos\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BB031CD9-DD93-4E34-BA3A-788F87B302B8}|WebApplication1\\WebAppSoporte.csproj|solutionrelative:webapplication1\\pages\\equipos\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB031CD9-DD93-4E34-BA3A-788F87B302B8}|WebApplication1\\WebAppSoporte.csproj|c:\\users\\administrador\\videos\\dwr\\laboral\\nueva carpeta\\net8c#entity\\websoporte\\weappsoporte\\webapplication1\\webapplication1\\models\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB031CD9-DD93-4E34-BA3A-788F87B302B8}|WebApplication1\\WebAppSoporte.csproj|solutionrelative:webapplication1\\models\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB031CD9-DD93-4E34-BA3A-788F87B302B8}|WebApplication1\\WebAppSoporte.csproj|c:\\users\\administrador\\videos\\dwr\\laboral\\nueva carpeta\\net8c#entity\\websoporte\\weappsoporte\\webapplication1\\webapplication1\\pages\\equipos\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BB031CD9-DD93-4E34-BA3A-788F87B302B8}|WebApplication1\\WebAppSoporte.csproj|solutionrelative:webapplication1\\pages\\equipos\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{c93a910a-0fa6-4307-93a4-f2bd61ec7828}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Equipo.cs",
+              "DocumentMoniker": "C:\\Users\\Administrador\\Videos\\dwr\\laboral\\Nueva carpeta\\Net8c#Entity\\webSoporte\\weAppSoporte\\WebApplication1\\WebApplication1\\Models\\Equipo.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Models\\Equipo.cs",
+              "ToolTip": "C:\\Users\\Administrador\\Videos\\dwr\\laboral\\Nueva carpeta\\Net8c#Entity\\webSoporte\\weAppSoporte\\WebApplication1\\WebApplication1\\Models\\Equipo.cs",
+              "RelativeToolTip": "WebApplication1\\Models\\Equipo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T21:28:56.732Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Empleado.cs",
+              "DocumentMoniker": "C:\\Users\\Administrador\\Videos\\dwr\\laboral\\Nueva carpeta\\Net8c#Entity\\webSoporte\\weAppSoporte\\WebApplication1\\WebApplication1\\Models\\Empleado.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Models\\Empleado.cs",
+              "ToolTip": "C:\\Users\\Administrador\\Videos\\dwr\\laboral\\Nueva carpeta\\Net8c#Entity\\webSoporte\\weAppSoporte\\WebApplication1\\WebApplication1\\Models\\Empleado.cs",
+              "RelativeToolTip": "WebApplication1\\Models\\Empleado.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAwwCYAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T21:27:27.273Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Administrador\\Videos\\dwr\\laboral\\Nueva carpeta\\Net8c#Entity\\webSoporte\\weAppSoporte\\WebApplication1\\WebApplication1\\Pages\\Equipos\\Edit.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Pages\\Equipos\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Administrador\\Videos\\dwr\\laboral\\Nueva carpeta\\Net8c#Entity\\webSoporte\\weAppSoporte\\WebApplication1\\WebApplication1\\Pages\\Equipos\\Edit.cshtml",
+              "RelativeToolTip": "WebApplication1\\Pages\\Equipos\\Edit.cshtml",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAAAFQAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-05T21:18:47.36Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Edit.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Administrador\\Videos\\dwr\\laboral\\Nueva carpeta\\Net8c#Entity\\webSoporte\\weAppSoporte\\WebApplication1\\WebApplication1\\Pages\\Equipos\\Edit.cshtml.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Pages\\Equipos\\Edit.cshtml.cs",
+              "ToolTip": "C:\\Users\\Administrador\\Videos\\dwr\\laboral\\Nueva carpeta\\Net8c#Entity\\webSoporte\\weAppSoporte\\WebApplication1\\WebApplication1\\Pages\\Equipos\\Edit.cshtml.cs",
+              "RelativeToolTip": "WebApplication1\\Pages\\Equipos\\Edit.cshtml.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAswAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T21:18:49.052Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Administrador\\Videos\\dwr\\laboral\\Nueva carpeta\\Net8c#Entity\\webSoporte\\weAppSoporte\\WebApplication1\\WebApplication1\\Pages\\Equipos\\Create.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Pages\\Equipos\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Administrador\\Videos\\dwr\\laboral\\Nueva carpeta\\Net8c#Entity\\webSoporte\\weAppSoporte\\WebApplication1\\WebApplication1\\Pages\\Equipos\\Create.cshtml",
+              "RelativeToolTip": "WebApplication1\\Pages\\Equipos\\Create.cshtml",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAAAFMAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-05T21:09:58.152Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

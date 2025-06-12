@@ -1,0 +1,8 @@
+Avance del proyecto 
+
+Normalización de base de datos -- completo
+
+Creación de base de datos con tablas -- completo
+
+Creación de api para consumir base de datos -- en proceso
+

@@ -1,0 +1,78 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Administrador\\Videos\\dwr\\laboral\\Nueva carpeta\\Net8c#Entity\\webApiInventarioSoporte\\WebApiInventarioEntity\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FE7D60B7-99AD-4D2C-9AF7-212932467EF5}|WebApiInventarioEntity\\WebApiInventarioEntity.csproj|c:\\users\\administrador\\videos\\dwr\\laboral\\nueva carpeta\\net8c#entity\\webapiinventariosoporte\\webapiinventarioentity\\webapiinventarioentity\\controllers\\departamentocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE7D60B7-99AD-4D2C-9AF7-212932467EF5}|WebApiInventarioEntity\\WebApiInventarioEntity.csproj|solutionrelative:webapiinventarioentity\\controllers\\departamentocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F84C612-D387-4E2F-8E3B-FF3404ABB90A}|InventarioDatos\\InventarioDatos.csproj|c:\\users\\administrador\\videos\\dwr\\laboral\\nueva carpeta\\net8c#entity\\webapiinventariosoporte\\webapiinventarioentity\\inventariodatos\\models\\equipo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F84C612-D387-4E2F-8E3B-FF3404ABB90A}|InventarioDatos\\InventarioDatos.csproj|solutionrelative:inventariodatos\\models\\equipo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F84C612-D387-4E2F-8E3B-FF3404ABB90A}|InventarioDatos\\InventarioDatos.csproj|c:\\users\\administrador\\videos\\dwr\\laboral\\nueva carpeta\\net8c#entity\\webapiinventariosoporte\\webapiinventarioentity\\inventariodatos\\models\\departamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F84C612-D387-4E2F-8E3B-FF3404ABB90A}|InventarioDatos\\InventarioDatos.csproj|solutionrelative:inventariodatos\\models\\departamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{c93a910a-0fa6-4307-93a4-f2bd61ec7828}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DepartamentoController.cs",
+              "DocumentMoniker": "C:\\Users\\Administrador\\Videos\\dwr\\laboral\\Nueva carpeta\\Net8c#Entity\\webApiInventarioSoporte\\WebApiInventarioEntity\\WebApiInventarioEntity\\Controllers\\DepartamentoController.cs",
+              "RelativeDocumentMoniker": "WebApiInventarioEntity\\Controllers\\DepartamentoController.cs",
+              "ToolTip": "C:\\Users\\Administrador\\Videos\\dwr\\laboral\\Nueva carpeta\\Net8c#Entity\\webApiInventarioSoporte\\WebApiInventarioEntity\\WebApiInventarioEntity\\Controllers\\DepartamentoController.cs",
+              "RelativeToolTip": "WebApiInventarioEntity\\Controllers\\DepartamentoController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T15:11:52.154Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Equipo.cs",
+              "DocumentMoniker": "C:\\Users\\Administrador\\Videos\\dwr\\laboral\\Nueva carpeta\\Net8c#Entity\\webApiInventarioSoporte\\WebApiInventarioEntity\\InventarioDatos\\Models\\Equipo.cs",
+              "RelativeDocumentMoniker": "InventarioDatos\\Models\\Equipo.cs",
+              "ToolTip": "C:\\Users\\Administrador\\Videos\\dwr\\laboral\\Nueva carpeta\\Net8c#Entity\\webApiInventarioSoporte\\WebApiInventarioEntity\\InventarioDatos\\Models\\Equipo.cs",
+              "RelativeToolTip": "InventarioDatos\\Models\\Equipo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD0AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T21:51:22.943Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Departamento.cs",
+              "DocumentMoniker": "C:\\Users\\Administrador\\Videos\\dwr\\laboral\\Nueva carpeta\\Net8c#Entity\\webApiInventarioSoporte\\WebApiInventarioEntity\\InventarioDatos\\Models\\Departamento.cs",
+              "RelativeDocumentMoniker": "InventarioDatos\\Models\\Departamento.cs",
+              "ToolTip": "C:\\Users\\Administrador\\Videos\\dwr\\laboral\\Nueva carpeta\\Net8c#Entity\\webApiInventarioSoporte\\WebApiInventarioEntity\\InventarioDatos\\Models\\Departamento.cs",
+              "RelativeToolTip": "InventarioDatos\\Models\\Departamento.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T21:51:20.075Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

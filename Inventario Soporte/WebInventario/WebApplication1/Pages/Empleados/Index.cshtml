@@ -1,0 +1,133 @@
+﻿@page
+@model WebAppInventarioS.Pages.Empleados.IndexModel
+@{
+	ViewData["Title"] = "Lista de Empleado";
+}
+<h1>Empleados</h1>
+
+
+<form method="get" class="mb-3 w-50 mx-auto">
+    <div class="input-group">
+        <input type="text" name="busqueda" value="@Model.busqueda" class="form-control" placeholder="Buscar por Nombre, Apellidos, usuario Windows, Correo" />
+        <button type="submit" class="btn btn-primary">Buscar</button>
+    </div>
+</form>
+<div class="text-center">
+    <h4>Filtar lista</h4>
+    <div class="mb-3 w-50 ms-auto">
+        <div class="input-group">
+            <input type="text" id="searchInput" class="form-control" placeholder="Filtrar empleado..." autocomplete="off" />
+        </div>
+    </div>
+</div>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Nombre Completo</th>
+            <th>Puesto</th>
+			<th>Usuario Windows</th>
+			<th>Usuario AD</th>
+			<th>Correo</th>
+			<th>Pass</th>
+            <th>Departamento</th>
+            <th>Ubicacion</th>
+			<th>Status</th>
+            <th>Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var empleado in Model.empleados)
+        {
+            <tr>
+                <td>@empleado.Nombre @empleado.ApellidoP @empleado.ApellidoM</td>
+                <td>@empleado.Puesto</td>
+				<td>@empleado.UsuarioWindows</td>
+				<td>@empleado.UsuarioAD</td>
+				<td>@empleado.Correo</td>
+				<td>@empleado.Pass</td>
+                <td>@empleado.NombreDepartamento</td>
+                <td>@empleado.NombreUbicacion</td>
+                <td>
+                    @if (empleado.Status)
+                    {
+                        <span class="badge bg-success">Activo</span>
+                    }
+                    else
+                    {
+                        <span class="badge bg-danger">Inactivo</span>
+                    }
+                </td>
+                <td>
+                    <a class="btn btn-secondary" asp-page="./DetailsEmpleado" asp-route-id="@empleado.IdEmpleado">Detalles</a> 
+                    <a class="btn btn-warning" asp-page="./Edit" asp-route-id="@empleado.IdEmpleado">Editar</a>
+                    @if (!empleado.Status)
+                    {
+                        <a class="btn btn-success" asp-page="./DeleteEmpleado" asp-route-id="@empleado.IdEmpleado">Alta</a>
+                    }
+                    else
+                    {
+                        <a class="btn btn-danger" asp-page="./DeleteEmpleado" asp-route-id="@empleado.IdEmpleado">Baja</a>
+                    }
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<p>
+    <a class="btn btn-success" asp-page="./Create">Crear Nuevo Empleado</a>
+</p>
+
+@section Scripts {
+    <script>
+    document.getElementById('searchInput').addEventListener('keyup', function() {
+        let filter = this.value.toLowerCase();
+        let rows = document.querySelectorAll('table tbody tr');
+        rows.forEach(row => {
+            let text = row.textContent.toLowerCase();
+            row.style.display = text.includes(filter) ?     '' : 'none';
+        });
+        paginarTabla(); // Actualiza la paginación al buscar
+    });
+
+    const filasPorPagina = 10;
+    let paginaActual = 1;
+
+    function paginarTabla() {
+        let rows = Array.from(document.querySelectorAll('table tbody tr'))
+            .filter(row => row.style.display !== 'none');
+        let totalPaginas = Math.ceil(rows.length / filasPorPagina);
+
+        rows.forEach((row, idx) => {
+            row.style.display = (Math.floor(idx / filasPorPagina) + 1 === paginaActual) ? '' : 'none';
+        });
+
+        // Renderiza los controles de paginación
+        let paginacion = document.getElementById('paginacion');
+        if (!paginacion) {
+            paginacion = document.createElement('div');
+            paginacion.id = 'paginacion';
+            // Agrega clases Bootstrap para centrar
+            paginacion.className = 'mt-3 d-flex justify-content-center gap-2';
+            document.querySelector('table').after(paginacion);
+        }
+        paginacion.innerHTML = '';
+        for (let i = 1; i <= totalPaginas; i++) {
+            let btn = document.createElement('button');
+            btn.textContent = i;
+            btn.className = 'btn btn-sm ' + (i === paginaActual ? 'btn-primary' : 'btn-outline-primary');
+            btn.onclick = function() {
+                paginaActual = i;
+                paginarTabla();
+            };
+            paginacion.appendChild(btn);
+        }
+    }
+
+    // Inicializa la paginación al cargar
+    window.addEventListener('DOMContentLoaded', function() {
+        paginarTabla();
+    });
+    </script>
+}

@@ -1,0 +1,37 @@
+﻿@page
+@model WebAppInventarioS.Pages.Departamentos.DeleteModel
+@{
+	ViewData["Title"] = "Baja Departamento";
+}
+<h1>Baja Departamento</h1>
+
+<h3>Estas seguro de dar de baja este Departamento</h3>
+
+@if (Model.Departamento != null)
+{
+    <dl class="row">
+        <dt class="col-sm-2">Nombre</dt>
+        <dd class="col-sm-10">@Model.Departamento.NombreDepartamento</dd>
+        <dt class="col-sm-2">Status</dt>
+		<dd class="col-sm-10">
+			@if (@Model.Departamento.Status)
+			{
+				<span class="badge bg-success">Activo</span>
+			}
+			else
+			{
+				<span class="badge bg-danger">Inactivo</span>
+			}
+		</dd>
+    </dl>
+
+    <form method="post">
+        <input type="hidden" asp-for="Departamento.IdDepartamento" />
+        <button type="submit" class="btn btn-danger">Baja</button>
+        <a asp-page="./Index" class="btn btn-secondary">Cancelar</a>
+    </form>
+}
+else
+{
+    <p>Departamento No encontrado</p>
+}

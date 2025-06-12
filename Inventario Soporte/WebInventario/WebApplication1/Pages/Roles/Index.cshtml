@@ -1,0 +1,52 @@
+﻿@page
+@model WebAppInventarioS.Pages.Roles.IndexModel
+@{
+	ViewData["Title"] = "Lista Roles";
+}
+
+<h1>Roles</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Nombre</th>
+            <th>Status</th>
+            <th>Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var rol in Model.Roles)
+        {
+            <tr>
+                <td>@rol.NombreRol</td>
+                <td>
+                    @if (rol.Status)
+                    {
+                        <span class="badge bg-success">Activo</span>
+                    }
+                    else
+                    {
+                        <span class="badge bg-danger">Inactivo</span>
+                    }
+                </td>
+                <td>
+                    <a class="btn btn-secondary" asp-page="./Details" asp-route-id="@rol.IdRol">Detalles</a> 
+                    <a class="btn btn-warning" asp-page="./Edit" asp-route-id="@rol.IdRol">Editar</a>
+                    @if (!rol.Status)
+                    {
+                        <a class="btn btn-success" asp-page="./Delete" asp-route-id="@rol.IdRol">Alta</a>
+                    }
+                    else
+                    {
+                        <a class="btn btn-danger" asp-page="./Delete" asp-route-id="@rol.IdRol">Baja</a>
+                    }
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<p>
+    <a class="btn  btn-primary" asp-page="./Create">Crear Nuevo Rol</a>
+</p>
+

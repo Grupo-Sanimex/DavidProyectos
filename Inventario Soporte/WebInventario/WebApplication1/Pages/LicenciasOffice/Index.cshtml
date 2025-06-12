@@ -1,0 +1,53 @@
+﻿@page
+@model WebAppSoporte.Pages.LicenciasOffice.IndexModel
+@{
+	ViewData["Title"] = "Licencias Office";
+}
+
+<h1>Licencias</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Cuenta</th>
+            <th>Id Equipo</th>
+            <th>Status</th>
+            <th>Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var licenciaOffice in Model.LicenciasOffice)
+        {
+            <tr>
+                <td>@licenciaOffice.Cuenta</td>
+                <td>@licenciaOffice.IdEquipo</td>
+                <td>
+                    @if (licenciaOffice.Status)
+                    {
+                        <span class="badge bg-success">Activo</span>
+                    }
+                    else
+                    {
+                        <span class="badge bg-danger">Inactivo</span>
+                    }
+                </td>
+                <td>
+                    <a class="btn btn-secondary" asp-page="./Details" asp-route-id="@licenciaOffice.IdLicencia">Detalles</a> 
+                    <a class="btn btn-warning" asp-page="./Edit" asp-route-id="@licenciaOffice.IdLicencia">Editar</a>
+                    @if (!licenciaOffice.Status)
+                    {
+                        <a class="btn btn-success" asp-page="./Delete" asp-route-id="@licenciaOffice.IdLicencia">Alta</a>
+                    }
+                    else
+                    {
+                        <a class="btn btn-danger" asp-page="./Delete" asp-route-id="@licenciaOffice.IdLicencia">Baja</a>
+                    }
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<p>
+    <a class="btn btn-primary" asp-page="./Create">Crear Nuevo Licencia</a>
+</p>
