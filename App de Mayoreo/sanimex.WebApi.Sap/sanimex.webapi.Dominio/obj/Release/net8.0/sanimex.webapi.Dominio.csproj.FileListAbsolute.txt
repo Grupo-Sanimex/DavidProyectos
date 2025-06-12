@@ -1,0 +1,24 @@
+C:\Users\David Duarte\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.webapi.Dominio\bin\Release\net8.0\sanimex.webapi.Dominio.deps.json
+C:\Users\David Duarte\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.webapi.Dominio\bin\Release\net8.0\sanimex.webapi.Dominio.dll
+C:\Users\David Duarte\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.webapi.Dominio\bin\Release\net8.0\sanimex.webapi.Dominio.pdb
+C:\Users\David Duarte\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.webapi.Dominio\obj\Release\net8.0\sanimex.webapi.Dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\David Duarte\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.webapi.Dominio\obj\Release\net8.0\sanimex.webapi.Dominio.AssemblyInfoInputs.cache
+C:\Users\David Duarte\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.webapi.Dominio\obj\Release\net8.0\sanimex.webapi.Dominio.AssemblyInfo.cs
+C:\Users\David Duarte\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.webapi.Dominio\obj\Release\net8.0\sanimex.webapi.Dominio.csproj.CoreCompileInputs.cache
+C:\Users\David Duarte\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.webapi.Dominio\obj\Release\net8.0\sanimex.webapi.Dominio.dll
+C:\Users\David Duarte\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.webapi.Dominio\obj\Release\net8.0\refint\sanimex.webapi.Dominio.dll
+C:\Users\David Duarte\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.webapi.Dominio\obj\Release\net8.0\sanimex.webapi.Dominio.pdb
+C:\Users\David Duarte\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.webapi.Dominio\obj\Release\net8.0\ref\sanimex.webapi.Dominio.dll
+C:\Users\David Duarte\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.webapi.Dominio\obj\Release\net8.0\sanimex.webapi.Dominio.sourcelink.json
+C:\Users\Administrador\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.webapi.Dominio\bin\Release\net8.0\sanimex.webapi.Dominio.deps.json
+C:\Users\Administrador\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.webapi.Dominio\bin\Release\net8.0\sanimex.webapi.Dominio.dll
+C:\Users\Administrador\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.webapi.Dominio\bin\Release\net8.0\sanimex.webapi.Dominio.pdb
+C:\Users\Administrador\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.webapi.Dominio\obj\Release\net8.0\sanimex.webapi.Dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrador\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.webapi.Dominio\obj\Release\net8.0\sanimex.webapi.Dominio.AssemblyInfoInputs.cache
+C:\Users\Administrador\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.webapi.Dominio\obj\Release\net8.0\sanimex.webapi.Dominio.AssemblyInfo.cs
+C:\Users\Administrador\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.webapi.Dominio\obj\Release\net8.0\sanimex.webapi.Dominio.csproj.CoreCompileInputs.cache
+C:\Users\Administrador\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.webapi.Dominio\obj\Release\net8.0\sanimex.webapi.Dominio.sourcelink.json
+C:\Users\Administrador\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.webapi.Dominio\obj\Release\net8.0\sanimex.webapi.Dominio.dll
+C:\Users\Administrador\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.webapi.Dominio\obj\Release\net8.0\refint\sanimex.webapi.Dominio.dll
+C:\Users\Administrador\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.webapi.Dominio\obj\Release\net8.0\sanimex.webapi.Dominio.pdb
+C:\Users\Administrador\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.webapi.Dominio\obj\Release\net8.0\ref\sanimex.webapi.Dominio.dll

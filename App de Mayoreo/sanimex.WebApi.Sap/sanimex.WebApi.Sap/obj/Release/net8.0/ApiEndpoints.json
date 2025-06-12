@@ -1,0 +1,1211 @@
+[
+  {
+    "ContainingType": "sanimex.WebApi.Sap.Controllers.AutenticacionController",
+    "Method": "Acceso",
+    "RelativePath": "api/Autenticacion/Acceso",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "email",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "password",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "sanimex.WebApi.Sap.Controllers.AutenticacionController",
+    "Method": "ValidaToken",
+    "RelativePath": "api/Autenticacion/ValidaToken",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "sanimex.Webapi.Sap.Controllers.AuthWebController",
+    "Method": "ObtenerAccesoWeb",
+    "RelativePath": "api/AuthWeb/AccesoWeb",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "numeroUsuario",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "password",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "sanimex.Webapi.Sap.Controllers.CarritoController",
+    "Method": "AgregarProducto",
+    "RelativePath": "api/Carrito/agregar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "codigo",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "descripsion",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "sucursal",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "precioFinal",
+        "Type": "System.Single",
+        "IsRequired": false
+      },
+      {
+        "Name": "cantidad",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "ClaveCliente",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Recoge",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "Contado",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "tipo_consulta",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "sanimex.Webapi.Sap.Controllers.CarritoController",
+    "Method": "CotizacionDetalle",
+    "RelativePath": "api/Carrito/CotizacionDetalle",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idCotizacion",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "sanimex.Webapi.Sap.Controllers.CarritoController",
+    "Method": "DecrementarProducto",
+    "RelativePath": "api/Carrito/decrementar",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "codigo",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "sucursal",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "sanimex.Webapi.Sap.Controllers.CarritoController",
+    "Method": "DecrementarProductoDiez",
+    "RelativePath": "api/Carrito/decrementarDiez",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "codigo",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "sucursal",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "sanimex.Webapi.Sap.Controllers.CarritoController",
+    "Method": "EliminarProducto",
+    "RelativePath": "api/Carrito/eliminar",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "codigo",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "sanimex.Webapi.Sap.Controllers.CarritoController",
+    "Method": "HistorialCarrito",
+    "RelativePath": "api/Carrito/historialGerente",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "fechaConsulta",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "sanimex.Webapi.Sap.Controllers.CarritoController",
+    "Method": "HistorialGerenteSucursal",
+    "RelativePath": "api/Carrito/historialGerenteSucursal",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "fechaConsulta",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "sanimex.Webapi.Sap.Controllers.CarritoController",
+    "Method": "HistorialCarritoVisitador",
+    "RelativePath": "api/Carrito/historialVisitador",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "fechaConsulta",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "sanimex.Webapi.Sap.Controllers.CarritoController",
+    "Method": "HistorialCarritoVisitador",
+    "RelativePath": "api/Carrito/hisVisitadorGerente",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "fechaConsulta",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "idvistador",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "sanimex.Webapi.Sap.Controllers.CarritoController",
+    "Method": "IncrementarProducto",
+    "RelativePath": "api/Carrito/incrementar",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "codigo",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "sucursal",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "sanimex.Webapi.Sap.Controllers.CarritoController",
+    "Method": "IncrementarProductoDiez",
+    "RelativePath": "api/Carrito/incrementarDiez",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "codigo",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "sucursal",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "sanimex.Webapi.Sap.Controllers.CarritoController",
+    "Method": "InsertCarrito",
+    "RelativePath": "api/Carrito/InsertCarrito",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "sanimex.Webapi.Sap.Controllers.CarritoController",
+    "Method": "ObtenerCarrito",
+    "RelativePath": "api/Carrito/listar",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "sanimex.Webapi.Sap.Controllers.CarritoController",
+    "Method": "VaciarCarrito",
+    "RelativePath": "api/Carrito/vaciar",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "sanimex.Webapi.Sap.Controllers.ClienteController",
+    "Method": "GetClientesMayoreo",
+    "RelativePath": "api/Cliente/ClientesMayoreo",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idCliente",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "empresa",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "rfcCte",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "sanimex.Webapi.Sap.Controllers.ClienteController",
+    "Method": "GuardarConsultas",
+    "RelativePath": "api/Cliente/GuardarLog",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cliente",
+        "Type": "sanimex.webapi.Dominio.Models.Logs.ClienteLogs",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "sanimex.Webapi.Sap.Controllers.ClienteController",
+    "Method": "HistoricoVtaMay",
+    "RelativePath": "api/Cliente/HistoricoVtaMay",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ClienteSap",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[sanimex.webapi.Dominio.Models.Usuarios.Historico_Vta_May, sanimex.webapi.Dominio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "sanimex.Webapi.Sap.Controllers.ClienteController",
+    "Method": "maxNumeroClientes",
+    "RelativePath": "api/Cliente/maxConsultas",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idUsuario",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "numCliente",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "sanimex.Webapi.Sap.Controllers.ClienteController",
+    "Method": "MetrosImporteMayoreo",
+    "RelativePath": "api/Cliente/MetrosImporteMayoreo",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ClaveCliente",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "sanimex.Webapi.Sap.Controllers.ClienteController",
+    "Method": "Detalles",
+    "RelativePath": "api/Cliente/Obtener/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "sanimex.WebApi.Sap.Controllers.CliMayoreoController",
+    "Method": "GetClientesMayoreo",
+    "RelativePath": "api/CliMayoreo/ClienteMayoreo",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idCliente",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "canalVenta",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "empresa",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "rfcCte",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "sanimex.WebApi.Sap.Controllers.CliMayoreoController",
+    "Method": "GetDisponibilidadxCentros",
+    "RelativePath": "api/CliMayoreo/DisponibilidadCentros",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "barcode",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "descripcion",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "centrosCorredor",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "sucHijoSap",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "sanimex.WebApi.Sap.Controllers.CliMayoreoController",
+    "Method": "GetDisponibilidadxMayoreo",
+    "RelativePath": "api/CliMayoreo/DisponibilidadMayoreo",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "barcode",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "centrosCorredor",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "soloExistencias",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "sanimex.WebApi.Sap.Controllers.CliMayoreoController",
+    "Method": "SimuladarPedidos",
+    "RelativePath": "api/CliMayoreo/SimuladorPedidos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "codigosProductos",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "noCliente",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "canalVenta",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "empresa",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "claveSap",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "validador",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "sanimex.WebApi.Sap.Controllers.CliMayoreoController",
+    "Method": "GetSimuladorPieza",
+    "RelativePath": "api/CliMayoreo/SimuladorPieza",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "barcode",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "noCliente",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "centrosCorredor",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "sanimex.Webapi.Sap.Controllers.NetworkController",
+    "Method": "GetClientIP",
+    "RelativePath": "api/Network/client-ip",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "sanimex.Webapi.Sap.Controllers.PerfilController",
+    "Method": "ObtenerPerfil",
+    "RelativePath": "api/Perfil/perfil",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "sanimex.Webapi.Sap.Controllers.ProductoController",
+    "Method": "Buscar",
+    "RelativePath": "api/Producto/Buscar",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "busqueda",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "sanimex.Webapi.Sap.Controllers.ProductoController",
+    "Method": "BuscarCliente",
+    "RelativePath": "api/Producto/CBarraCliente",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "product_id",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "centrosCorredor",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "tipoEntrega",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "tipoPago",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "ClaveCliente",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "TipoConsulta",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "sanimex.Webapi.Sap.Controllers.ProductoController",
+    "Method": "BuscarCodigoBarra",
+    "RelativePath": "api/Producto/CBarraUnitario",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "product_id",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "centrosCorredor",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "sanimex.Webapi.Sap.Controllers.ProductoController",
+    "Method": "Detalles",
+    "RelativePath": "api/Producto/PrecioProducto/{CodigoBarra}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "CodigoBarra",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "sanimex.Webapi.Sap.Controllers.ProductoController",
+    "Method": "ProductoCarrito",
+    "RelativePath": "api/Producto/Producto",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "CodigoBarra",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "sanimex.Webapi.Sap.Controllers.ReporteWebController",
+    "Method": "ConsultasClientes",
+    "RelativePath": "api/ReporteWeb/ConsultasClientes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idUsuario",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Fecha",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[sanimex.webapi.Dominio.Models.webMayoreo.ConsultasCliente, sanimex.webapi.Dominio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "sanimex.Webapi.Sap.Controllers.ReporteWebController",
+    "Method": "Cotizaciones",
+    "RelativePath": "api/ReporteWeb/Cotizacion",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idGerente",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Fecha",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[sanimex.webapi.Dominio.Models.webMayoreo.CotizacionS, sanimex.webapi.Dominio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "sanimex.Webapi.Sap.Controllers.ReporteWebController",
+    "Method": "CotizacionesRango",
+    "RelativePath": "api/ReporteWeb/CotizacionRango",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idGerente",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "FechaInicio",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "FechaFin",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[sanimex.webapi.Dominio.Models.webMayoreo.CotizacionS, sanimex.webapi.Dominio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "sanimex.Webapi.Sap.Controllers.ReporteWebController",
+    "Method": "ObtenerGerentesLista",
+    "RelativePath": "api/ReporteWeb/Gerentes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[sanimex.webapi.Dominio.Models.webMayoreo.Gerente, sanimex.webapi.Dominio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "sanimex.Webapi.Sap.Controllers.SucursalController",
+    "Method": "SupervisorSucursal",
+    "RelativePath": "api/Sucursal/SupervisorSucursal",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "sanimex.Webapi.Sap.Controllers.UbicacionController",
+    "Method": "InsertarUbicacion",
+    "RelativePath": "api/Ubicacion/InsertarUbicacion",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "direccion",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "latitud",
+        "Type": "System.Double",
+        "IsRequired": false
+      },
+      {
+        "Name": "longitud",
+        "Type": "System.Double",
+        "IsRequired": false
+      },
+      {
+        "Name": "claveSucursal",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "tipoIngreso",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "sanimex.Webapi.Sap.Controllers.UbicacionController",
+    "Method": "ListarUbicacion",
+    "RelativePath": "api/Ubicacion/Ubicacion",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "sanimex.webapi.Dominio.Models.Ubicaciones.UbicacionesModel",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "sanimex.Webapi.Sap.Controllers.UbicacionController",
+    "Method": "ListarUbicaciones",
+    "RelativePath": "api/Ubicacion/Ubicaciones",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[sanimex.webapi.Dominio.Models.Ubicaciones.UbicacionesModel, sanimex.webapi.Dominio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "sanimex.Webapi.Sap.Controllers.UbicacionController",
+    "Method": "UbicacionesMaps",
+    "RelativePath": "api/Ubicacion/UbicacionesMaps",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "claveSucursal",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "numeroEmpleado",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "fechaUnitaria",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[sanimex.webapi.Dominio.Models.Ubicaciones.UbicacionesMaps, sanimex.webapi.Dominio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "sanimex.Webapi.Sap.Controllers.UbicacionController",
+    "Method": "UbicacionesVisitaMaps",
+    "RelativePath": "api/Ubicacion/UbicacionesVisitaMaps",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "claveSucursal",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "numeroEmpleado",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "fechaUnitaria",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[sanimex.webapi.Dominio.Models.Ubicaciones.UbicacionesMaps, sanimex.webapi.Dominio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "sanimex.Webapi.Sap.Controllers.UbicacionController",
+    "Method": "UbicacionSucursal",
+    "RelativePath": "api/Ubicacion/UbicacionSucursal",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "fechaConsulta",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[sanimex.webapi.Dominio.Models.Ubicaciones.UbicacionSucursal, sanimex.webapi.Dominio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "sanimex.Webapi.Sap.Controllers.UbicacionController",
+    "Method": "VisitadorActivos",
+    "RelativePath": "api/Ubicacion/VisitadorActivos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "claveSucursal",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "fechaUnitaria",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[sanimex.webapi.Dominio.Models.Ubicaciones.VisitadorActivo, sanimex.webapi.Dominio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "sanimex.Webapi.Sap.Controllers.WebsController",
+    "Method": "Post",
+    "RelativePath": "api/Webs/AgregarUsuarioWeb",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idPermiso",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "numEmpleado",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "nombre",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "aPaterno",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "aMaterno",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "contrasena",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "sanimex.Webapi.Sap.Controllers.WebsController",
+    "Method": "Delete",
+    "RelativePath": "api/Webs/BajaRol/{idRol}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idRol",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "sanimex.Webapi.Sap.Controllers.WebsController",
+    "Method": "BajaUsuario",
+    "RelativePath": "api/Webs/BajaUsuarioWeb/{idUsuario}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idUsuario",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "sanimex.Webapi.Sap.Controllers.WebsController",
+    "Method": "Post",
+    "RelativePath": "api/Webs/GuardarRol",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "perfil",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "sanimex.Webapi.Sap.Controllers.WebsController",
+    "Method": "ListaRol",
+    "RelativePath": "api/Webs/ListarRol/{idRol}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idRol",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "sanimex.Webapi.Sap.Controllers.WebsController",
+    "Method": "ListarRoles",
+    "RelativePath": "api/Webs/ListarRoles",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "sanimex.Webapi.Sap.Controllers.WebsController",
+    "Method": "ListarUsuario",
+    "RelativePath": "api/Webs/ListarUsuario/{idUsuario}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idUsuario",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "sanimex.Webapi.Sap.Controllers.WebsController",
+    "Method": "ListarUsuarios",
+    "RelativePath": "api/Webs/ListarUsuarios",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

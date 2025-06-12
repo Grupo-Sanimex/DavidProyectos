@@ -1,0 +1,36 @@
+C:\Users\David Duarte\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.webapi.Negocio\bin\Release\net8.0\sanimex.webapi.Negocio.deps.json
+C:\Users\David Duarte\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.webapi.Negocio\bin\Release\net8.0\sanimex.webapi.Negocio.dll
+C:\Users\David Duarte\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.webapi.Negocio\bin\Release\net8.0\sanimex.webapi.Negocio.pdb
+C:\Users\David Duarte\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.webapi.Negocio\bin\Release\net8.0\sanimex.webapi.Datos.dll
+C:\Users\David Duarte\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.webapi.Negocio\bin\Release\net8.0\sanimex.webapi.Dominio.dll
+C:\Users\David Duarte\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.webapi.Negocio\bin\Release\net8.0\sanimex.webapi.Datos.pdb
+C:\Users\David Duarte\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.webapi.Negocio\bin\Release\net8.0\sanimex.webapi.Dominio.pdb
+C:\Users\David Duarte\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.webapi.Negocio\obj\Release\net8.0\sanimex.webapi.Negocio.csproj.AssemblyReference.cache
+C:\Users\David Duarte\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.webapi.Negocio\obj\Release\net8.0\sanimex.webapi.Negocio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\David Duarte\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.webapi.Negocio\obj\Release\net8.0\sanimex.webapi.Negocio.AssemblyInfoInputs.cache
+C:\Users\David Duarte\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.webapi.Negocio\obj\Release\net8.0\sanimex.webapi.Negocio.AssemblyInfo.cs
+C:\Users\David Duarte\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.webapi.Negocio\obj\Release\net8.0\sanimex.webapi.Negocio.csproj.CoreCompileInputs.cache
+C:\Users\David Duarte\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.webapi.Negocio\obj\Release\net8.0\sanimex..205504A2.Up2Date
+C:\Users\David Duarte\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.webapi.Negocio\obj\Release\net8.0\sanimex.webapi.Negocio.dll
+C:\Users\David Duarte\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.webapi.Negocio\obj\Release\net8.0\refint\sanimex.webapi.Negocio.dll
+C:\Users\David Duarte\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.webapi.Negocio\obj\Release\net8.0\sanimex.webapi.Negocio.pdb
+C:\Users\David Duarte\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.webapi.Negocio\obj\Release\net8.0\ref\sanimex.webapi.Negocio.dll
+C:\Users\David Duarte\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.webapi.Negocio\obj\Release\net8.0\sanimex.webapi.Negocio.sourcelink.json
+C:\Users\Administrador\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.webapi.Negocio\bin\Release\net8.0\sanimex.webapi.Negocio.deps.json
+C:\Users\Administrador\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.webapi.Negocio\bin\Release\net8.0\sanimex.webapi.Negocio.dll
+C:\Users\Administrador\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.webapi.Negocio\bin\Release\net8.0\sanimex.webapi.Negocio.pdb
+C:\Users\Administrador\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.webapi.Negocio\bin\Release\net8.0\sanimex.webapi.Datos.dll
+C:\Users\Administrador\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.webapi.Negocio\bin\Release\net8.0\sanimex.webapi.Dominio.dll
+C:\Users\Administrador\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.webapi.Negocio\bin\Release\net8.0\sanimex.webapi.Datos.pdb
+C:\Users\Administrador\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.webapi.Negocio\bin\Release\net8.0\sanimex.webapi.Dominio.pdb
+C:\Users\Administrador\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.webapi.Negocio\obj\Release\net8.0\sanimex.webapi.Negocio.csproj.AssemblyReference.cache
+C:\Users\Administrador\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.webapi.Negocio\obj\Release\net8.0\sanimex.webapi.Negocio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrador\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.webapi.Negocio\obj\Release\net8.0\sanimex.webapi.Negocio.AssemblyInfoInputs.cache
+C:\Users\Administrador\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.webapi.Negocio\obj\Release\net8.0\sanimex.webapi.Negocio.AssemblyInfo.cs
+C:\Users\Administrador\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.webapi.Negocio\obj\Release\net8.0\sanimex.webapi.Negocio.csproj.CoreCompileInputs.cache
+C:\Users\Administrador\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.webapi.Negocio\obj\Release\net8.0\sanimex.webapi.Negocio.sourcelink.json
+C:\Users\Administrador\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.webapi.Negocio\obj\Release\net8.0\sanimex..205504A2.Up2Date
+C:\Users\Administrador\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.webapi.Negocio\obj\Release\net8.0\sanimex.webapi.Negocio.dll
+C:\Users\Administrador\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.webapi.Negocio\obj\Release\net8.0\refint\sanimex.webapi.Negocio.dll
+C:\Users\Administrador\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.webapi.Negocio\obj\Release\net8.0\sanimex.webapi.Negocio.pdb
+C:\Users\Administrador\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.webapi.Negocio\obj\Release\net8.0\ref\sanimex.webapi.Negocio.dll

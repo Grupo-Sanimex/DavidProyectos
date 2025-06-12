@@ -1,0 +1,32 @@
+C:\Users\David Duarte\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.webapi.Datos\bin\Debug\net8.0\sanimex.webapi.Datos.deps.json
+C:\Users\David Duarte\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.webapi.Datos\bin\Debug\net8.0\sanimex.webapi.Datos.dll
+C:\Users\David Duarte\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.webapi.Datos\bin\Debug\net8.0\sanimex.webapi.Datos.pdb
+C:\Users\David Duarte\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.webapi.Datos\bin\Debug\net8.0\sanimex.webapi.Dominio.dll
+C:\Users\David Duarte\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.webapi.Datos\bin\Debug\net8.0\sanimex.webapi.Dominio.pdb
+C:\Users\David Duarte\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.webapi.Datos\obj\Debug\net8.0\sanimex.webapi.Datos.csproj.AssemblyReference.cache
+C:\Users\David Duarte\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.webapi.Datos\obj\Debug\net8.0\sanimex.webapi.Datos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\David Duarte\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.webapi.Datos\obj\Debug\net8.0\sanimex.webapi.Datos.AssemblyInfoInputs.cache
+C:\Users\David Duarte\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.webapi.Datos\obj\Debug\net8.0\sanimex.webapi.Datos.AssemblyInfo.cs
+C:\Users\David Duarte\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.webapi.Datos\obj\Debug\net8.0\sanimex.webapi.Datos.csproj.CoreCompileInputs.cache
+C:\Users\David Duarte\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.webapi.Datos\obj\Debug\net8.0\sanimex..0B88B6EF.Up2Date
+C:\Users\David Duarte\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.webapi.Datos\obj\Debug\net8.0\sanimex.webapi.Datos.dll
+C:\Users\David Duarte\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.webapi.Datos\obj\Debug\net8.0\refint\sanimex.webapi.Datos.dll
+C:\Users\David Duarte\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.webapi.Datos\obj\Debug\net8.0\sanimex.webapi.Datos.pdb
+C:\Users\David Duarte\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.webapi.Datos\obj\Debug\net8.0\ref\sanimex.webapi.Datos.dll
+C:\Users\David Duarte\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.webapi.Datos\obj\Debug\net8.0\sanimex.webapi.Datos.sourcelink.json
+C:\Users\Administrador\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.webapi.Datos\bin\Debug\net8.0\sanimex.webapi.Datos.deps.json
+C:\Users\Administrador\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.webapi.Datos\bin\Debug\net8.0\sanimex.webapi.Datos.dll
+C:\Users\Administrador\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.webapi.Datos\bin\Debug\net8.0\sanimex.webapi.Datos.pdb
+C:\Users\Administrador\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.webapi.Datos\bin\Debug\net8.0\sanimex.webapi.Dominio.dll
+C:\Users\Administrador\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.webapi.Datos\bin\Debug\net8.0\sanimex.webapi.Dominio.pdb
+C:\Users\Administrador\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.webapi.Datos\obj\Debug\net8.0\sanimex.webapi.Datos.csproj.AssemblyReference.cache
+C:\Users\Administrador\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.webapi.Datos\obj\Debug\net8.0\sanimex.webapi.Datos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrador\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.webapi.Datos\obj\Debug\net8.0\sanimex.webapi.Datos.AssemblyInfoInputs.cache
+C:\Users\Administrador\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.webapi.Datos\obj\Debug\net8.0\sanimex.webapi.Datos.AssemblyInfo.cs
+C:\Users\Administrador\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.webapi.Datos\obj\Debug\net8.0\sanimex.webapi.Datos.csproj.CoreCompileInputs.cache
+C:\Users\Administrador\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.webapi.Datos\obj\Debug\net8.0\sanimex.webapi.Datos.sourcelink.json
+C:\Users\Administrador\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.webapi.Datos\obj\Debug\net8.0\sanimex..0B88B6EF.Up2Date
+C:\Users\Administrador\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.webapi.Datos\obj\Debug\net8.0\sanimex.webapi.Datos.dll
+C:\Users\Administrador\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.webapi.Datos\obj\Debug\net8.0\refint\sanimex.webapi.Datos.dll
+C:\Users\Administrador\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.webapi.Datos\obj\Debug\net8.0\sanimex.webapi.Datos.pdb
+C:\Users\Administrador\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.webapi.Datos\obj\Debug\net8.0\ref\sanimex.webapi.Datos.dll

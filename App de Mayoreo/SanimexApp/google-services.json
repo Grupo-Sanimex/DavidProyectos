@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "517038768299",
+    "project_id": "gamapp-e666f",
+    "storage_bucket": "gamapp-e666f.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:517038768299:android:18f0e020408ee3132777ee",
+        "android_client_info": {
+          "package_name": "com.app.sanimex"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAf83H3nyxgab-8mRQY_ZiMnhwu6QVqURQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

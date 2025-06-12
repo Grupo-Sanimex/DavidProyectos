@@ -1,0 +1,146 @@
+C:\Users\David Duarte\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.WebApi.Sap\bin\Release\net8.0\appsettings.Development.json
+C:\Users\David Duarte\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.WebApi.Sap\bin\Release\net8.0\appsettings.json
+C:\Users\David Duarte\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.WebApi.Sap\bin\Release\net8.0\sanimex.Webapi.Sap.exe
+C:\Users\David Duarte\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.WebApi.Sap\bin\Release\net8.0\sanimex.Webapi.Sap.deps.json
+C:\Users\David Duarte\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.WebApi.Sap\bin\Release\net8.0\sanimex.Webapi.Sap.runtimeconfig.json
+C:\Users\David Duarte\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.WebApi.Sap\bin\Release\net8.0\sanimex.Webapi.Sap.dll
+C:\Users\David Duarte\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.WebApi.Sap\bin\Release\net8.0\sanimex.Webapi.Sap.pdb
+C:\Users\David Duarte\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.WebApi.Sap\bin\Release\net8.0\BouncyCastle.Cryptography.dll
+C:\Users\David Duarte\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.WebApi.Sap\bin\Release\net8.0\Dapper.dll
+C:\Users\David Duarte\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.WebApi.Sap\bin\Release\net8.0\Google.Protobuf.dll
+C:\Users\David Duarte\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.WebApi.Sap\bin\Release\net8.0\K4os.Compression.LZ4.dll
+C:\Users\David Duarte\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.WebApi.Sap\bin\Release\net8.0\K4os.Compression.LZ4.Streams.dll
+C:\Users\David Duarte\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.WebApi.Sap\bin\Release\net8.0\K4os.Hash.xxHash.dll
+C:\Users\David Duarte\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.WebApi.Sap\bin\Release\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\David Duarte\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.WebApi.Sap\bin\Release\net8.0\Microsoft.Bcl.TimeProvider.dll
+C:\Users\David Duarte\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.WebApi.Sap\bin\Release\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\David Duarte\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.WebApi.Sap\bin\Release\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\David Duarte\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.WebApi.Sap\bin\Release\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\David Duarte\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.WebApi.Sap\bin\Release\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\David Duarte\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.WebApi.Sap\bin\Release\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\David Duarte\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.WebApi.Sap\bin\Release\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\David Duarte\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.WebApi.Sap\bin\Release\net8.0\Microsoft.OpenApi.dll
+C:\Users\David Duarte\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.WebApi.Sap\bin\Release\net8.0\MySql.Data.dll
+C:\Users\David Duarte\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.WebApi.Sap\bin\Release\net8.0\Newtonsoft.Json.dll
+C:\Users\David Duarte\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.WebApi.Sap\bin\Release\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\David Duarte\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.WebApi.Sap\bin\Release\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\David Duarte\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.WebApi.Sap\bin\Release\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\David Duarte\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.WebApi.Sap\bin\Release\net8.0\System.Configuration.ConfigurationManager.dll
+C:\Users\David Duarte\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.WebApi.Sap\bin\Release\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\David Duarte\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.WebApi.Sap\bin\Release\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\David Duarte\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.WebApi.Sap\bin\Release\net8.0\System.Security.Permissions.dll
+C:\Users\David Duarte\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.WebApi.Sap\bin\Release\net8.0\System.Windows.Extensions.dll
+C:\Users\David Duarte\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.WebApi.Sap\bin\Release\net8.0\ZstdSharp.dll
+C:\Users\David Duarte\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.WebApi.Sap\bin\Release\net8.0\runtimes\win-x64\native\comerr64.dll
+C:\Users\David Duarte\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.WebApi.Sap\bin\Release\net8.0\runtimes\win-x64\native\gssapi64.dll
+C:\Users\David Duarte\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.WebApi.Sap\bin\Release\net8.0\runtimes\win-x64\native\k5sprt64.dll
+C:\Users\David Duarte\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.WebApi.Sap\bin\Release\net8.0\runtimes\win-x64\native\krb5_64.dll
+C:\Users\David Duarte\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.WebApi.Sap\bin\Release\net8.0\runtimes\win-x64\native\krbcc64.dll
+C:\Users\David Duarte\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.WebApi.Sap\bin\Release\net8.0\runtimes\win\lib\net8.0\System.Windows.Extensions.dll
+C:\Users\David Duarte\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.WebApi.Sap\bin\Release\net8.0\sanimex.webapi.Datos.dll
+C:\Users\David Duarte\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.WebApi.Sap\bin\Release\net8.0\sanimex.webapi.Dominio.dll
+C:\Users\David Duarte\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.WebApi.Sap\bin\Release\net8.0\sanimex.webapi.Negocio.dll
+C:\Users\David Duarte\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.WebApi.Sap\bin\Release\net8.0\sanimex.webapi.Dominio.pdb
+C:\Users\David Duarte\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.WebApi.Sap\bin\Release\net8.0\sanimex.webapi.Negocio.pdb
+C:\Users\David Duarte\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.WebApi.Sap\bin\Release\net8.0\sanimex.webapi.Datos.pdb
+C:\Users\David Duarte\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.WebApi.Sap\obj\Release\net8.0\sanimex.Webapi.Sap.csproj.AssemblyReference.cache
+C:\Users\David Duarte\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.WebApi.Sap\obj\Release\net8.0\sanimex.Webapi.Sap.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\David Duarte\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.WebApi.Sap\obj\Release\net8.0\sanimex.Webapi.Sap.AssemblyInfoInputs.cache
+C:\Users\David Duarte\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.WebApi.Sap\obj\Release\net8.0\sanimex.Webapi.Sap.AssemblyInfo.cs
+C:\Users\David Duarte\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.WebApi.Sap\obj\Release\net8.0\sanimex.Webapi.Sap.csproj.CoreCompileInputs.cache
+C:\Users\David Duarte\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.WebApi.Sap\obj\Release\net8.0\sanimex.Webapi.Sap.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\David Duarte\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.WebApi.Sap\obj\Release\net8.0\sanimex.Webapi.Sap.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\David Duarte\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.WebApi.Sap\obj\Release\net8.0\staticwebassets.build.json
+C:\Users\David Duarte\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.WebApi.Sap\obj\Release\net8.0\staticwebassets.development.json
+C:\Users\David Duarte\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.WebApi.Sap\obj\Release\net8.0\staticwebassets\msbuild.sanimex.Webapi.Sap.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\David Duarte\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.WebApi.Sap\obj\Release\net8.0\staticwebassets\msbuild.build.sanimex.Webapi.Sap.props
+C:\Users\David Duarte\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.WebApi.Sap\obj\Release\net8.0\staticwebassets\msbuild.buildMultiTargeting.sanimex.Webapi.Sap.props
+C:\Users\David Duarte\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.WebApi.Sap\obj\Release\net8.0\staticwebassets\msbuild.buildTransitive.sanimex.Webapi.Sap.props
+C:\Users\David Duarte\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.WebApi.Sap\obj\Release\net8.0\staticwebassets.pack.json
+C:\Users\David Duarte\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.WebApi.Sap\obj\Release\net8.0\scopedcss\bundle\sanimex.Webapi.Sap.styles.css
+C:\Users\David Duarte\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.WebApi.Sap\obj\Release\net8.0\sanimex..B63BE25D.Up2Date
+C:\Users\David Duarte\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.WebApi.Sap\obj\Release\net8.0\sanimex.Webapi.Sap.dll
+C:\Users\David Duarte\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.WebApi.Sap\obj\Release\net8.0\refint\sanimex.Webapi.Sap.dll
+C:\Users\David Duarte\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.WebApi.Sap\obj\Release\net8.0\sanimex.Webapi.Sap.pdb
+C:\Users\David Duarte\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.WebApi.Sap\obj\Release\net8.0\sanimex.Webapi.Sap.genruntimeconfig.cache
+C:\Users\David Duarte\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.WebApi.Sap\obj\Release\net8.0\ref\sanimex.Webapi.Sap.dll
+C:\Users\David Duarte\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.WebApi.Sap\obj\Release\net8.0\sanimex.Webapi.Sap.sourcelink.json
+C:\Users\David Duarte\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.WebApi.Sap\bin\Release\net8.0\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\David Duarte\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.WebApi.Sap\bin\Release\net8.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\David Duarte\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.WebApi.Sap\bin\Release\net8.0\Microsoft.Extensions.PlatformAbstractions.dll
+C:\Users\David Duarte\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.WebApi.Sap\bin\Release\net8.0\Nancy.dll
+C:\Users\David Duarte\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.WebApi.Sap\bin\Release\net8.0\sanimex.Webapi.Sap.staticwebassets.endpoints.json
+C:\Users\David Duarte\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.WebApi.Sap\obj\Release\net8.0\staticwebassets.build.endpoints.json
+C:\Users\David Duarte\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.WebApi.Sap\obj\Release\net8.0\staticwebassets\msbuild.sanimex.Webapi.Sap.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\David Duarte\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.WebApi.Sap\obj\Release\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\Administrador\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.WebApi.Sap\bin\Release\net8.0\appsettings.Development.json
+C:\Users\Administrador\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.WebApi.Sap\bin\Release\net8.0\appsettings.json
+C:\Users\Administrador\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.WebApi.Sap\bin\Release\net8.0\sanimex.Webapi.Sap.staticwebassets.endpoints.json
+C:\Users\Administrador\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.WebApi.Sap\bin\Release\net8.0\sanimex.Webapi.Sap.exe
+C:\Users\Administrador\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.WebApi.Sap\bin\Release\net8.0\sanimex.Webapi.Sap.deps.json
+C:\Users\Administrador\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.WebApi.Sap\bin\Release\net8.0\sanimex.Webapi.Sap.runtimeconfig.json
+C:\Users\Administrador\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.WebApi.Sap\bin\Release\net8.0\sanimex.Webapi.Sap.dll
+C:\Users\Administrador\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.WebApi.Sap\bin\Release\net8.0\sanimex.Webapi.Sap.pdb
+C:\Users\Administrador\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.WebApi.Sap\bin\Release\net8.0\BouncyCastle.Cryptography.dll
+C:\Users\Administrador\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.WebApi.Sap\bin\Release\net8.0\Dapper.dll
+C:\Users\Administrador\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.WebApi.Sap\bin\Release\net8.0\Google.Protobuf.dll
+C:\Users\Administrador\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.WebApi.Sap\bin\Release\net8.0\K4os.Compression.LZ4.dll
+C:\Users\Administrador\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.WebApi.Sap\bin\Release\net8.0\K4os.Compression.LZ4.Streams.dll
+C:\Users\Administrador\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.WebApi.Sap\bin\Release\net8.0\K4os.Hash.xxHash.dll
+C:\Users\Administrador\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.WebApi.Sap\bin\Release\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Administrador\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.WebApi.Sap\bin\Release\net8.0\Microsoft.Bcl.TimeProvider.dll
+C:\Users\Administrador\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.WebApi.Sap\bin\Release\net8.0\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\Administrador\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.WebApi.Sap\bin\Release\net8.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Administrador\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.WebApi.Sap\bin\Release\net8.0\Microsoft.Extensions.PlatformAbstractions.dll
+C:\Users\Administrador\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.WebApi.Sap\bin\Release\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Administrador\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.WebApi.Sap\bin\Release\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Administrador\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.WebApi.Sap\bin\Release\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Administrador\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.WebApi.Sap\bin\Release\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Administrador\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.WebApi.Sap\bin\Release\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Administrador\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.WebApi.Sap\bin\Release\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Administrador\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.WebApi.Sap\bin\Release\net8.0\Microsoft.OpenApi.dll
+C:\Users\Administrador\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.WebApi.Sap\bin\Release\net8.0\MySql.Data.dll
+C:\Users\Administrador\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.WebApi.Sap\bin\Release\net8.0\Nancy.dll
+C:\Users\Administrador\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.WebApi.Sap\bin\Release\net8.0\Newtonsoft.Json.dll
+C:\Users\Administrador\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.WebApi.Sap\bin\Release\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Administrador\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.WebApi.Sap\bin\Release\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Administrador\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.WebApi.Sap\bin\Release\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Administrador\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.WebApi.Sap\bin\Release\net8.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Administrador\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.WebApi.Sap\bin\Release\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Administrador\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.WebApi.Sap\bin\Release\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Administrador\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.WebApi.Sap\bin\Release\net8.0\System.Security.Permissions.dll
+C:\Users\Administrador\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.WebApi.Sap\bin\Release\net8.0\System.Windows.Extensions.dll
+C:\Users\Administrador\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.WebApi.Sap\bin\Release\net8.0\TimeZoneConverter.dll
+C:\Users\Administrador\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.WebApi.Sap\bin\Release\net8.0\ZstdSharp.dll
+C:\Users\Administrador\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.WebApi.Sap\bin\Release\net8.0\runtimes\win-x64\native\comerr64.dll
+C:\Users\Administrador\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.WebApi.Sap\bin\Release\net8.0\runtimes\win-x64\native\gssapi64.dll
+C:\Users\Administrador\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.WebApi.Sap\bin\Release\net8.0\runtimes\win-x64\native\k5sprt64.dll
+C:\Users\Administrador\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.WebApi.Sap\bin\Release\net8.0\runtimes\win-x64\native\krb5_64.dll
+C:\Users\Administrador\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.WebApi.Sap\bin\Release\net8.0\runtimes\win-x64\native\krbcc64.dll
+C:\Users\Administrador\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.WebApi.Sap\bin\Release\net8.0\runtimes\win\lib\net8.0\System.Windows.Extensions.dll
+C:\Users\Administrador\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.WebApi.Sap\bin\Release\net8.0\sanimex.webapi.Datos.dll
+C:\Users\Administrador\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.WebApi.Sap\bin\Release\net8.0\sanimex.webapi.Dominio.dll
+C:\Users\Administrador\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.WebApi.Sap\bin\Release\net8.0\sanimex.webapi.Negocio.dll
+C:\Users\Administrador\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.WebApi.Sap\bin\Release\net8.0\sanimex.webapi.Dominio.pdb
+C:\Users\Administrador\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.WebApi.Sap\bin\Release\net8.0\sanimex.webapi.Negocio.pdb
+C:\Users\Administrador\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.WebApi.Sap\bin\Release\net8.0\sanimex.webapi.Datos.pdb
+C:\Users\Administrador\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.WebApi.Sap\obj\Release\net8.0\sanimex.Webapi.Sap.csproj.AssemblyReference.cache
+C:\Users\Administrador\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.WebApi.Sap\obj\Release\net8.0\sanimex.Webapi.Sap.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrador\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.WebApi.Sap\obj\Release\net8.0\sanimex.Webapi.Sap.AssemblyInfoInputs.cache
+C:\Users\Administrador\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.WebApi.Sap\obj\Release\net8.0\sanimex.Webapi.Sap.AssemblyInfo.cs
+C:\Users\Administrador\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.WebApi.Sap\obj\Release\net8.0\sanimex.Webapi.Sap.csproj.CoreCompileInputs.cache
+C:\Users\Administrador\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.WebApi.Sap\obj\Release\net8.0\sanimex.Webapi.Sap.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Administrador\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.WebApi.Sap\obj\Release\net8.0\sanimex.Webapi.Sap.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Administrador\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.WebApi.Sap\obj\Release\net8.0\sanimex.Webapi.Sap.sourcelink.json
+C:\Users\Administrador\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.WebApi.Sap\obj\Release\net8.0\scopedcss\bundle\sanimex.Webapi.Sap.styles.css
+C:\Users\Administrador\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.WebApi.Sap\obj\Release\net8.0\staticwebassets.build.json
+C:\Users\Administrador\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.WebApi.Sap\obj\Release\net8.0\staticwebassets.development.json
+C:\Users\Administrador\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.WebApi.Sap\obj\Release\net8.0\staticwebassets.build.endpoints.json
+C:\Users\Administrador\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.WebApi.Sap\obj\Release\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\Administrador\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.WebApi.Sap\obj\Release\net8.0\sanimex..B63BE25D.Up2Date
+C:\Users\Administrador\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.WebApi.Sap\obj\Release\net8.0\sanimex.Webapi.Sap.dll
+C:\Users\Administrador\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.WebApi.Sap\obj\Release\net8.0\refint\sanimex.Webapi.Sap.dll
+C:\Users\Administrador\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.WebApi.Sap\obj\Release\net8.0\sanimex.Webapi.Sap.pdb
+C:\Users\Administrador\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.WebApi.Sap\obj\Release\net8.0\sanimex.Webapi.Sap.genruntimeconfig.cache
+C:\Users\Administrador\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.WebApi.Sap\obj\Release\net8.0\ref\sanimex.Webapi.Sap.dll
+C:\Users\Administrador\Documents\Desarrollo jr 2024\DesarolloAzulejero\sanimex.WebApi.Sap\sanimex.WebApi.Sap\obj\Release\net8.0\staticwebassets.build.json.cache

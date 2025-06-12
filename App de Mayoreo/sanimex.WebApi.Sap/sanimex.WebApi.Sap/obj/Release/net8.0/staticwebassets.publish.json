@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "bRq4tjE/9bbvvoqJS6aV302/tPGDgk0JRtmOx16a7+s=",
+  "Source": "sanimex.Webapi.Sap",
+  "BasePath": "_content/sanimex.Webapi.Sap",
+  "Mode": "Default",
+  "ManifestType": "Publish",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
