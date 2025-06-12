@@ -1257,6 +1257,11 @@
             "format": "int32",
             "nullable": true
           },
+          "idDepartamento": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
           "idEmpleado": {
             "type": "integer",
             "format": "int32",

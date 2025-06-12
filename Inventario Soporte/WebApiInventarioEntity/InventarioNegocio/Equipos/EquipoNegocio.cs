@@ -41,6 +41,7 @@ namespace InventarioNegocio.Equipos
                     FechaUltimoMantto = equipo.FechaUltimoMantto,
                     ElaboroResponsiva = equipo.ElaboroResponsiva,
                     IdUbicacion = equipo.IdUbicacion,
+                    IdDepartamento = equipo.IdDepartamento,
                     IdEmpleado = equipo.IdEmpleado,
                     Status = equipo.Status
                 });
@@ -78,6 +79,7 @@ namespace InventarioNegocio.Equipos
                     FechaUltimoMantto = equipo.FechaUltimoMantto,
                     ElaboroResponsiva = equipo.ElaboroResponsiva,
                     IdUbicacion = equipo.IdUbicacion,
+                    IdDepartamento = equipo.IdDepartamento,
                     IdEmpleado = equipo.IdEmpleado,
                     Status = equipo.Status
                 });
@@ -108,6 +110,7 @@ namespace InventarioNegocio.Equipos
                     FechaUltimoMantto = equipo.FechaUltimoMantto,
                     ElaboroResponsiva = equipo.ElaboroResponsiva,
                     IdUbicacion = equipo.IdUbicacion,
+                    IdDepartamento = equipo.IdDepartamento,
                     IdEmpleado = equipo.IdEmpleado,
                     Status = equipo.Status
                 };
@@ -143,6 +146,7 @@ namespace InventarioNegocio.Equipos
                     FechaUltimoMantto = equipo.FechaUltimoMantto,
                     ElaboroResponsiva = equipo.ElaboroResponsiva,
                     IdUbicacion = equipo.IdUbicacion,
+                    IdDepartamento = equipo.IdDepartamento,
                     IdEmpleado = equipo.IdEmpleado,
                     Status = equipo.Status
                 });
@@ -181,6 +185,7 @@ namespace InventarioNegocio.Equipos
                 FechaUltimoMantto = equipo.FechaUltimoMantto,
                 ElaboroResponsiva = equipo.ElaboroResponsiva,
                 IdUbicacion = equipo.IdUbicacion,
+                IdDepartamento = equipo.IdDepartamento,
                 IdEmpleado = equipo.IdEmpleado,
                 Status = equipo.Status
             };
@@ -205,6 +210,7 @@ namespace InventarioNegocio.Equipos
                 FechaUltimoMantto = DateTime.Now,
                 ElaboroResponsiva = equipoDto.ElaboroResponsiva,
                 IdUbicacion = equipoDto.IdUbicacion,
+                IdDepartamento = null,
                 IdEmpleado = null,
                 Status = true
             };
@@ -232,6 +238,7 @@ namespace InventarioNegocio.Equipos
                 equipoExistente.FechaUltimoMantto = equipo.FechaUltimoMantto;
                 equipoExistente.ElaboroResponsiva = equipo.ElaboroResponsiva;
                 equipoExistente.IdUbicacion = equipo.IdUbicacion;
+                equipoExistente.IdDepartamento = equipo.IdDepartamento;
                 equipoExistente.IdEmpleado = equipo.IdEmpleado;
                 _datosDbContext.SaveChanges();
             }

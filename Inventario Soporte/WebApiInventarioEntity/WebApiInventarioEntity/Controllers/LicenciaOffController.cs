@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace WebApiInventarioEntity.Controllers
 {
     [Route("api/[controller]")]
-    [Authorize]
+    //[Authorize]
     [ApiController]
     public class LicenciaOffController : ControllerBase
     {

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1gil++hYG64=",
+  "dgSpecHash": "xVu6gAPCsm0=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Administrador\\Videos\\dwr\\laboral\\Nueva carpeta\\Net8c#Entity\\webApiInventarioSoporte\\WebApiInventarioEntity\\InventarioNegocio\\InventarioNegocio.csproj",
+  "projectFilePath": "C:\\Users\\Administrador\\Desktop\\Carpeta Lulu\\DavidProyectos\\Inventario Soporte\\WebApiInventarioEntity\\InventarioNegocio\\InventarioNegocio.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Administrador\\.nuget\\packages\\microsoft.entityframeworkcore\\8.0.13\\microsoft.entityframeworkcore.8.0.13.nupkg.sha512",
     "C:\\Users\\Administrador\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\8.0.13\\microsoft.entityframeworkcore.abstractions.8.0.13.nupkg.sha512",

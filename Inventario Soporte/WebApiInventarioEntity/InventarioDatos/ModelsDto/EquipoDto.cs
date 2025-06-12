@@ -56,6 +56,8 @@ namespace InventarioDatos.ModelsDto
 
         public int? IdUbicacion { get; set; }
 
+        public int? IdDepartamento { get; set; }
+
         public int? IdEmpleado { get; set; }
         public bool Status { get; set; }
     }

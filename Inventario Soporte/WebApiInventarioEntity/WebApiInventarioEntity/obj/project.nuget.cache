@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Wk9DpVOv3Ko=",
+  "dgSpecHash": "0UojBjODSjI=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Administrador\\Videos\\dwr\\laboral\\Nueva carpeta\\Net8c#Entity\\webApiInventarioSoporte\\WebApiInventarioEntity\\WebApiInventarioEntity\\WebApiInventarioEntity.csproj",
+  "projectFilePath": "C:\\Users\\Administrador\\Desktop\\Carpeta Lulu\\DavidProyectos\\Inventario Soporte\\WebApiInventarioEntity\\WebApiInventarioEntity\\WebApiInventarioEntity.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Administrador\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\Administrador\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WebApiInventarioEntity")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7a1e962279d05638f6d857f49b0d803787a5795d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ca78dd40413829c72e88e303fa873a78072b2a69")]
 [assembly: System.Reflection.AssemblyProductAttribute("WebApiInventarioEntity")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WebApiInventarioEntity")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

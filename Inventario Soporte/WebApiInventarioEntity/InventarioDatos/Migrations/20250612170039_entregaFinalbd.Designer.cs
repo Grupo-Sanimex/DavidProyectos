@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace InventarioDatos.Migrations
 {
     [DbContext(typeof(DatosDbContext))]
-    [Migration("20250605214311_sentimaVersion")]
-    partial class sentimaVersion
+    [Migration("20250612170039_entregaFinalbd")]
+    partial class entregaFinalbd
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -125,9 +125,6 @@ namespace InventarioDatos.Migrations
 
                     MySqlPropertyBuilderExtensions.UseMySqlIdentityColumn(b.Property<int>("IdEquipo"));
 
-                    b.Property<int>("DepartamentoIdDepartamento")
-                        .HasColumnType("int");
-
                     b.Property<string>("DiscoDuro")
                         .IsRequired()
                         .HasMaxLength(20)
@@ -158,6 +155,9 @@ namespace InventarioDatos.Migrations
 
                     b.Property<DateTime?>("FechaUltimoMantto")
                         .HasColumnType("datetime(6)");
+
+                    b.Property<int?>("IdDepartamento")
+                        .HasColumnType("int");
 
                     b.Property<int?>("IdEmpleado")
                         .HasColumnType("int");
@@ -208,7 +208,7 @@ namespace InventarioDatos.Migrations
 
                     b.HasKey("IdEquipo");
 
-                    b.HasIndex("DepartamentoIdDepartamento");
+                    b.HasIndex("IdDepartamento");
 
                     b.HasIndex("IdEmpleado");
 
@@ -375,9 +375,7 @@ namespace InventarioDatos.Migrations
                 {
                     b.HasOne("InventarioDatos.Models.Departamento", "Departamento")
                         .WithMany("Equipos")
-                        .HasForeignKey("DepartamentoIdDepartamento")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("IdDepartamento");
 
                     b.HasOne("InventarioDatos.Models.Empleado", "Empleado")
                         .WithMany("Equipos")

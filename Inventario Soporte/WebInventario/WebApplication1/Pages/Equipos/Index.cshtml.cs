@@ -33,11 +33,11 @@ namespace WebAppInventarioS.Pages.Equipos
         public List<LicenciaOfEqDto> Licencias { get; set; } = new List<LicenciaOfEqDto>();
 
         public async Task<IActionResult> OnGetAsync()
-        {
-            try
-             {
-                Empleados = new List<EmpleadoDto>();
-                Licencias = new List<LicenciaOfEqDto>();
+{
+    try
+    {
+        Empleados = new List<EmpleadoDto>();
+        Licencias = new List<LicenciaOfEqDto>();
 
         if (!string.IsNullOrWhiteSpace(SearchTerm))
         {
@@ -61,12 +61,12 @@ namespace WebAppInventarioS.Pages.Equipos
         }
 
         return Page();
-        }
+    }
     catch (UnauthorizedAccessException)
     {
         return RedirectToPage("/Sesion/Login");
     }
-    }
+}
 
     }
 }

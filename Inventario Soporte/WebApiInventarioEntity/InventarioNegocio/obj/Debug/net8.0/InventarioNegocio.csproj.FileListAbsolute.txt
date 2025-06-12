@@ -29,3 +29,19 @@ C:\Users\Administrador\Videos\dwr\laboral\Nueva carpeta\Net8c#Entity\webApiInven
 C:\Users\Administrador\Videos\dwr\laboral\Nueva carpeta\Net8c#Entity\webApiInventarioSoporte\WebApiInventarioEntity\InventarioNegocio\obj\Debug\net8.0\refint\InventarioNegocio.dll
 C:\Users\Administrador\Videos\dwr\laboral\Nueva carpeta\Net8c#Entity\webApiInventarioSoporte\WebApiInventarioEntity\InventarioNegocio\obj\Debug\net8.0\InventarioNegocio.pdb
 C:\Users\Administrador\Videos\dwr\laboral\Nueva carpeta\Net8c#Entity\webApiInventarioSoporte\WebApiInventarioEntity\InventarioNegocio\obj\Debug\net8.0\ref\InventarioNegocio.dll
+C:\Users\Administrador\Desktop\Carpeta Lulu\DavidProyectos\Inventario Soporte\WebApiInventarioEntity\InventarioNegocio\bin\Debug\net8.0\InventarioNegocio.deps.json
+C:\Users\Administrador\Desktop\Carpeta Lulu\DavidProyectos\Inventario Soporte\WebApiInventarioEntity\InventarioNegocio\bin\Debug\net8.0\InventarioNegocio.dll
+C:\Users\Administrador\Desktop\Carpeta Lulu\DavidProyectos\Inventario Soporte\WebApiInventarioEntity\InventarioNegocio\bin\Debug\net8.0\InventarioNegocio.pdb
+C:\Users\Administrador\Desktop\Carpeta Lulu\DavidProyectos\Inventario Soporte\WebApiInventarioEntity\InventarioNegocio\bin\Debug\net8.0\InventarioDatos.dll
+C:\Users\Administrador\Desktop\Carpeta Lulu\DavidProyectos\Inventario Soporte\WebApiInventarioEntity\InventarioNegocio\bin\Debug\net8.0\InventarioDatos.pdb
+C:\Users\Administrador\Desktop\Carpeta Lulu\DavidProyectos\Inventario Soporte\WebApiInventarioEntity\InventarioNegocio\obj\Debug\net8.0\InventarioNegocio.csproj.AssemblyReference.cache
+C:\Users\Administrador\Desktop\Carpeta Lulu\DavidProyectos\Inventario Soporte\WebApiInventarioEntity\InventarioNegocio\obj\Debug\net8.0\InventarioNegocio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrador\Desktop\Carpeta Lulu\DavidProyectos\Inventario Soporte\WebApiInventarioEntity\InventarioNegocio\obj\Debug\net8.0\InventarioNegocio.AssemblyInfoInputs.cache
+C:\Users\Administrador\Desktop\Carpeta Lulu\DavidProyectos\Inventario Soporte\WebApiInventarioEntity\InventarioNegocio\obj\Debug\net8.0\InventarioNegocio.AssemblyInfo.cs
+C:\Users\Administrador\Desktop\Carpeta Lulu\DavidProyectos\Inventario Soporte\WebApiInventarioEntity\InventarioNegocio\obj\Debug\net8.0\InventarioNegocio.csproj.CoreCompileInputs.cache
+C:\Users\Administrador\Desktop\Carpeta Lulu\DavidProyectos\Inventario Soporte\WebApiInventarioEntity\InventarioNegocio\obj\Debug\net8.0\InventarioNegocio.sourcelink.json
+C:\Users\Administrador\Desktop\Carpeta Lulu\DavidProyectos\Inventario Soporte\WebApiInventarioEntity\InventarioNegocio\obj\Debug\net8.0\Inventar.70E0DACD.Up2Date
+C:\Users\Administrador\Desktop\Carpeta Lulu\DavidProyectos\Inventario Soporte\WebApiInventarioEntity\InventarioNegocio\obj\Debug\net8.0\InventarioNegocio.dll
+C:\Users\Administrador\Desktop\Carpeta Lulu\DavidProyectos\Inventario Soporte\WebApiInventarioEntity\InventarioNegocio\obj\Debug\net8.0\refint\InventarioNegocio.dll
+C:\Users\Administrador\Desktop\Carpeta Lulu\DavidProyectos\Inventario Soporte\WebApiInventarioEntity\InventarioNegocio\obj\Debug\net8.0\InventarioNegocio.pdb
+C:\Users\Administrador\Desktop\Carpeta Lulu\DavidProyectos\Inventario Soporte\WebApiInventarioEntity\InventarioNegocio\obj\Debug\net8.0\ref\InventarioNegocio.dll
