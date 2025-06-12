@@ -5,6 +5,37 @@
     "version": "1.0"
   },
   "paths": {
+    "/api/Auth": {
+      "post": {
+        "tags": [
+          "Auth"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Login"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Login"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Login"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Departamento": {
       "get": {
         "tags": [
@@ -255,6 +286,28 @@
         }
       }
     },
+    "/api/Empleado/Buscar/{busqueda}": {
+      "get": {
+        "tags": [
+          "Empleado"
+        ],
+        "parameters": [
+          {
+            "name": "busqueda",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Equipo": {
       "get": {
         "tags": [
@@ -359,6 +412,41 @@
         }
       },
       "delete": {
+        "tags": [
+          "Equipo"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Equipo/EquipoDisponible": {
+      "get": {
+        "tags": [
+          "Equipo"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Equipo/Empleado/{id}": {
+      "get": {
         "tags": [
           "Equipo"
         ],
@@ -512,6 +600,29 @@
         "parameters": [
           {
             "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/LicenciaOff/Equipo/{idEquipo}": {
+      "get": {
+        "tags": [
+          "LicenciaOff"
+        ],
+        "parameters": [
+          {
+            "name": "idEquipo",
             "in": "path",
             "required": true,
             "schema": {
@@ -901,6 +1012,48 @@
           }
         }
       }
+    },
+    "/api/Usuario/Contracena/{id}": {
+      "put": {
+        "tags": [
+          "Usuario"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "string"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "type": "string"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
     }
   },
   "components": {
@@ -1012,9 +1165,6 @@
           "empresa",
           "equipoEstatus",
           "etiqueta",
-          "idDepartamento",
-          "idEmpleado",
-          "idUbicacion",
           "ip",
           "marca",
           "modelo",
@@ -1104,15 +1254,18 @@
           },
           "idUbicacion": {
             "type": "integer",
-            "format": "int32"
+            "format": "int32",
+            "nullable": true
           },
           "idDepartamento": {
             "type": "integer",
-            "format": "int32"
+            "format": "int32",
+            "nullable": true
           },
           "idEmpleado": {
             "type": "integer",
-            "format": "int32"
+            "format": "int32",
+            "nullable": true
           },
           "status": {
             "type": "boolean"
@@ -1143,6 +1296,20 @@
           },
           "status": {
             "type": "boolean"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Login": {
+        "type": "object",
+        "properties": {
+          "usuario": {
+            "type": "string",
+            "nullable": true
+          },
+          "contracena": {
+            "type": "string",
+            "nullable": true
           }
         },
         "additionalProperties": false
@@ -1214,26 +1381,41 @@
         "additionalProperties": false
       },
       "UsuarioDto": {
-        "required": [
-          "contracena",
-          "idRol",
-          "usuarioSesion"
-        ],
         "type": "object",
         "properties": {
           "idUsuario": {
             "type": "integer",
             "format": "int32"
           },
+          "nombreCompleto": {
+            "maxLength": 100,
+            "minLength": 0,
+            "type": "string",
+            "nullable": true
+          },
+          "correo": {
+            "maxLength": 100,
+            "minLength": 0,
+            "type": "string",
+            "nullable": true
+          },
+          "puesto": {
+            "maxLength": 100,
+            "minLength": 0,
+            "type": "string",
+            "nullable": true
+          },
           "usuarioSesion": {
             "maxLength": 50,
             "minLength": 0,
-            "type": "string"
+            "type": "string",
+            "nullable": true
           },
           "contracena": {
             "maxLength": 300,
             "minLength": 0,
-            "type": "string"
+            "type": "string",
+            "nullable": true
           },
           "idRol": {
             "type": "integer",

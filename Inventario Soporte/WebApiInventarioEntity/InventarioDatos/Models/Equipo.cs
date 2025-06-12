@@ -52,24 +52,16 @@ namespace InventarioDatos.Models
 
         public DateTime? FechaUltimoMantto { get; set; }
 
+        [Required]
         [StringLength(100)]
         public string ElaboroResponsiva { get; set; }
 
-        [ForeignKey("Ubicacion")]
         public int? IdUbicacion { get; set; }
 
-        [ForeignKey("Departamento")]
         public int? IdDepartamento { get; set; }
 
-        [ForeignKey("Empleado")]
         public int? IdEmpleado { get; set; }
-
         public bool Status { get; set; }
-
-        // Propiedades de navegación
-        public Ubicacion Ubicacion { get; set; }
-        public Departamento Departamento { get; set; }
-        public Empleado Empleado { get; set; }
-        public ICollection<LicenciaOffice> LicenciasOffice { get; set; }
     }
 }
+

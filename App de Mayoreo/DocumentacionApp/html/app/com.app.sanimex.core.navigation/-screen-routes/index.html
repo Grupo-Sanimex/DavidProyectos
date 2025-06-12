@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html class="no-js">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
+    <title>ScreenRoutes</title>
+    <link href="../../../images/logo-icon.svg" rel="icon" type="image/svg">
+    <script>var pathToRoot = "../../../";</script>
+    <script>document.documentElement.classList.replace("no-js","js");</script>
+    <script>const storage = localStorage.getItem("dokka-dark-mode")
+    if (storage == null) {
+        const osDarkSchemePreferred = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
+        if (osDarkSchemePreferred === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    } else {
+        const savedDarkMode = JSON.parse(storage)
+        if(savedDarkMode === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    }
+    </script>
+<script type="text/javascript" src="https://unpkg.com/kotlin-playground@1/dist/playground.min.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/sourceset_dependencies.js" async="async"></script>
+<link href="../../../styles/style.css" rel="Stylesheet">
+<link href="../../../styles/main.css" rel="Stylesheet">
+<link href="../../../styles/prism.css" rel="Stylesheet">
+<link href="../../../styles/logo-styles.css" rel="Stylesheet">
+<link href="../../../styles/font-jb-sans-auto.css" rel="Stylesheet">
+<link href="../../../ui-kit/ui-kit.min.css" rel="Stylesheet">
+<script type="text/javascript" src="../../../scripts/clipboard.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/navigation-loader.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/platform-content-handler.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/main.js" defer="defer"></script>
+<script type="text/javascript" src="../../../scripts/prism.js" async="async"></script>
+<script type="text/javascript" src="../../../ui-kit/ui-kit.min.js" defer="defer"></script>
+<script type="text/javascript" src="../../../scripts/symbol-parameters-wrapper_deferred.js" defer="defer"></script>
+</head>
+<body>
+    <div class="root">
+    <nav class="navigation theme-dark" id="navigation-wrapper">
+            <a class="library-name--link" href="../../../index.html">
+                    app
+            </a>
+        <button class="navigation-controls--btn navigation-controls--btn_toc ui-kit_mobile-only" id="toc-toggle"
+                type="button">Toggle table of contents
+        </button>
+        <div class="navigation-controls--break ui-kit_mobile-only"></div>
+        <div class="library-version" id="library-version">
+        </div>
+        <div class="navigation-controls">
+        <div class="filter-section filter-section_loading" id="filter-section">
+                <button class="platform-tag platform-selector jvm-like" data-active=""
+                        data-filter=":app:dokkaHtml/release">androidJvm</button>
+            <div class="dropdown filter-section--dropdown" data-role="dropdown" id="filter-section-dropdown">
+                <button class="button button_dropdown filter-section--dropdown-toggle" role="combobox"
+                        data-role="dropdown-toggle"
+                        aria-controls="platform-tags-listbox"
+                        aria-haspopup="listbox"
+                        aria-expanded="false"
+                        aria-label="Toggle source sets"
+                ></button>
+                <ul role="listbox" id="platform-tags-listbox" class="dropdown--list" data-role="dropdown-listbox">
+                    <div class="dropdown--header"><span>Platform filter</span>
+                        <button class="button" data-role="dropdown-toggle" aria-label="Close platform filter">
+                            <i class="ui-kit-icon ui-kit-icon_cross"></i>
+                        </button>
+                    </div>
+                        <li role="option" class="dropdown--option platform-selector-option jvm-like" tabindex="0">
+                            <label class="checkbox">
+                                <input type="checkbox" class="checkbox--input" id=":app:dokkaHtml/release"
+                                       data-filter=":app:dokkaHtml/release"/>
+                                <span class="checkbox--icon"></span>
+                                androidJvm
+                            </label>
+                        </li>
+                </ul>
+                <div class="dropdown--overlay"></div>
+            </div>
+        </div>
+            <button class="navigation-controls--btn navigation-controls--btn_theme" id="theme-toggle-button"
+                    type="button">Switch theme
+            </button>
+            <div class="navigation-controls--btn navigation-controls--btn_search" id="searchBar" role="button">Search in
+                API
+            </div>
+        </div>
+    </nav>
+        <div id="container">
+            <div class="sidebar" id="leftColumn">
+                <div class="dropdown theme-dark_mobile" data-role="dropdown" id="toc-dropdown">
+                    <ul role="listbox" id="toc-listbox" class="dropdown--list dropdown--list_toc-list"
+                        data-role="dropdown-listbox">
+                        <div class="dropdown--header">
+                            <span>
+                                    app
+                            </span>
+                            <button class="button" data-role="dropdown-toggle" aria-label="Close table of contents">
+                                <i class="ui-kit-icon ui-kit-icon_cross"></i>
+                            </button>
+                        </div>
+                        <div class="sidebar--inner" id="sideMenu"></div>
+                    </ul>
+                    <div class="dropdown--overlay"></div>
+                </div>
+            </div>
+            <div id="main">
+<div class="main-content" data-page-type="classlike" id="content" pageIds="app::com.app.sanimex.core.navigation/ScreenRoutes///PointingToDeclaration//492899073">
+  <div class="breadcrumbs"><a href="../../../index.html">app</a><span class="delimiter">/</span><a href="../index.html">com.app.sanimex.core.navigation</a><span class="delimiter">/</span><span class="current">ScreenRoutes</span></div>
+  <div class="cover ">
+    <h1 class="cover"><span>Screen</span><wbr></wbr><span><span>Routes</span></span></h1>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":app:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">object </span><a href="index.html">ScreenRoutes</a></div><p class="paragraph">Objeto que contiene las constantes de las rutas de navegación de la aplicación.</p><p class="paragraph">Este objeto centraliza la definición de todas las rutas de la aplicación como constantes de cadena. Esto ayuda a garantizar la coherencia y facilita la refactorización de las rutas en caso de ser necesario.</p><span class="kdoc-tag"><h4 class="">Author</h4><p class="paragraph">David Duarte</p></span></div></div>
+  </div>
+  <div class="tabbedcontent">
+    <div class="tabs-section" tabs-section="tabs-section"><button class="section-tab" data-active="" data-togglable="CONSTRUCTOR,TYPE,PROPERTY,FUNCTION">Members</button></div>
+    <div class="tabs-section-body">
+      <div data-togglable="PROPERTY">
+        <h2 class="">Properties</h2>
+        <div class="table"><a data-name="917894969%2FProperties%2F492899073" anchor-label="ACCOUNT_SCREEN_ROUTE" id="917894969%2FProperties%2F492899073" data-filterable-set=":app:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":app:dokkaHtml/release" data-filterable-set=":app:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-a-c-c-o-u-n-t_-s-c-r-e-e-n_-r-o-u-t-e.html"><span>ACCOUNT_</span><wbr></wbr><span>SCREEN_</span><wbr></wbr><span>ROUTE</span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="917894969%2FProperties%2F492899073"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":app:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">const </span><span class="token keyword">val </span><a href="-a-c-c-o-u-n-t_-s-c-r-e-e-n_-r-o-u-t-e.html">ACCOUNT_SCREEN_ROUTE</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/core/kotlin-stdlib/kotlin/-string/index.html">String</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="414299268%2FProperties%2F492899073" anchor-label="CART_SCREEN_ROUTE" id="414299268%2FProperties%2F492899073" data-filterable-set=":app:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":app:dokkaHtml/release" data-filterable-set=":app:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-c-a-r-t_-s-c-r-e-e-n_-r-o-u-t-e.html"><span>CART_</span><wbr></wbr><span>SCREEN_</span><wbr></wbr><span>ROUTE</span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="414299268%2FProperties%2F492899073"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":app:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">const </span><span class="token keyword">val </span><a href="-c-a-r-t_-s-c-r-e-e-n_-r-o-u-t-e.html">CART_SCREEN_ROUTE</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/core/kotlin-stdlib/kotlin/-string/index.html">String</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="86693297%2FProperties%2F492899073" anchor-label="CATEGORY_PRODUCTS_SCREEN_ROUTE" id="86693297%2FProperties%2F492899073" data-filterable-set=":app:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":app:dokkaHtml/release" data-filterable-set=":app:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-c-a-t-e-g-o-r-y_-p-r-o-d-u-c-t-s_-s-c-r-e-e-n_-r-o-u-t-e.html"><span>CATEGORY_</span><wbr></wbr><span>PRODUCTS_</span><wbr></wbr><span>SCREEN_</span><wbr></wbr><span>ROUTE</span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="86693297%2FProperties%2F492899073"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":app:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">const </span><span class="token keyword">val </span><a href="-c-a-t-e-g-o-r-y_-p-r-o-d-u-c-t-s_-s-c-r-e-e-n_-r-o-u-t-e.html">CATEGORY_PRODUCTS_SCREEN_ROUTE</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/core/kotlin-stdlib/kotlin/-string/index.html">String</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-954224314%2FProperties%2F492899073" anchor-label="CLIENTE_SCREEN_ROUTE" id="-954224314%2FProperties%2F492899073" data-filterable-set=":app:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":app:dokkaHtml/release" data-filterable-set=":app:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-c-l-i-e-n-t-e_-s-c-r-e-e-n_-r-o-u-t-e.html"><span>CLIENTE_</span><wbr></wbr><span>SCREEN_</span><wbr></wbr><span>ROUTE</span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-954224314%2FProperties%2F492899073"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":app:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">const </span><span class="token keyword">val </span><a href="-c-l-i-e-n-t-e_-s-c-r-e-e-n_-r-o-u-t-e.html">CLIENTE_SCREEN_ROUTE</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/core/kotlin-stdlib/kotlin/-string/index.html">String</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-296838815%2FProperties%2F492899073" anchor-label="EMAIL_ENTER_SCREEN_ROUTE" id="-296838815%2FProperties%2F492899073" data-filterable-set=":app:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":app:dokkaHtml/release" data-filterable-set=":app:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-e-m-a-i-l_-e-n-t-e-r_-s-c-r-e-e-n_-r-o-u-t-e.html"><span>EMAIL_</span><wbr></wbr><span>ENTER_</span><wbr></wbr><span>SCREEN_</span><wbr></wbr><span>ROUTE</span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-296838815%2FProperties%2F492899073"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":app:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">const </span><span class="token keyword">val </span><a href="-e-m-a-i-l_-e-n-t-e-r_-s-c-r-e-e-n_-r-o-u-t-e.html">EMAIL_ENTER_SCREEN_ROUTE</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/core/kotlin-stdlib/kotlin/-string/index.html">String</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1986587423%2FProperties%2F492899073" anchor-label="EXPLORE_SCREEN_ROUTE" id="1986587423%2FProperties%2F492899073" data-filterable-set=":app:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":app:dokkaHtml/release" data-filterable-set=":app:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-e-x-p-l-o-r-e_-s-c-r-e-e-n_-r-o-u-t-e.html"><span>EXPLORE_</span><wbr></wbr><span>SCREEN_</span><wbr></wbr><span>ROUTE</span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1986587423%2FProperties%2F492899073"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":app:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">const </span><span class="token keyword">val </span><a href="-e-x-p-l-o-r-e_-s-c-r-e-e-n_-r-o-u-t-e.html">EXPLORE_SCREEN_ROUTE</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/core/kotlin-stdlib/kotlin/-string/index.html">String</a></div><div class="brief "><p class="paragraph">Constante que define la ruta para la pantalla de exploración general de la aplicación. Incluye un parámetro dinámico opcional <code class="lang-kotlin">{categories}</code> para filtrar por categorías.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-257361181%2FProperties%2F492899073" anchor-label="FAVORITES_SCREEN_ROUTE" id="-257361181%2FProperties%2F492899073" data-filterable-set=":app:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":app:dokkaHtml/release" data-filterable-set=":app:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-f-a-v-o-r-i-t-e-s_-s-c-r-e-e-n_-r-o-u-t-e.html"><span>FAVORITES_</span><wbr></wbr><span>SCREEN_</span><wbr></wbr><span>ROUTE</span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-257361181%2FProperties%2F492899073"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":app:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">const </span><span class="token keyword">val </span><a href="-f-a-v-o-r-i-t-e-s_-s-c-r-e-e-n_-r-o-u-t-e.html">FAVORITES_SCREEN_ROUTE</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/core/kotlin-stdlib/kotlin/-string/index.html">String</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1798686346%2FProperties%2F492899073" anchor-label="HIS_COTIZACION_DETALLE_SCREEN_ROUTE" id="-1798686346%2FProperties%2F492899073" data-filterable-set=":app:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":app:dokkaHtml/release" data-filterable-set=":app:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-h-i-s_-c-o-t-i-z-a-c-i-o-n_-d-e-t-a-l-l-e_-s-c-r-e-e-n_-r-o-u-t-e.html"><span>HIS_</span><wbr></wbr><span>COTIZACION_</span><wbr></wbr><span>DETALLE_</span><wbr></wbr><span>SCREEN_</span><wbr></wbr><span>ROUTE</span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1798686346%2FProperties%2F492899073"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":app:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">const </span><span class="token keyword">val </span><a href="-h-i-s_-c-o-t-i-z-a-c-i-o-n_-d-e-t-a-l-l-e_-s-c-r-e-e-n_-r-o-u-t-e.html">HIS_COTIZACION_DETALLE_SCREEN_ROUTE</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/core/kotlin-stdlib/kotlin/-string/index.html">String</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="2107378438%2FProperties%2F492899073" anchor-label="HIS_CTO_DETALLE_GERENTE_ID_SCREEN_ROUTE" id="2107378438%2FProperties%2F492899073" data-filterable-set=":app:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":app:dokkaHtml/release" data-filterable-set=":app:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-h-i-s_-c-t-o_-d-e-t-a-l-l-e_-g-e-r-e-n-t-e_-i-d_-s-c-r-e-e-n_-r-o-u-t-e.html"><span>HIS_</span><wbr></wbr><span>CTO_</span><wbr></wbr><span>DETALLE_</span><wbr></wbr><span>GERENTE_</span><wbr></wbr><span>ID_</span><wbr></wbr><span>SCREEN_</span><wbr></wbr><span>ROUTE</span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="2107378438%2FProperties%2F492899073"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":app:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">const </span><span class="token keyword">val </span><a href="-h-i-s_-c-t-o_-d-e-t-a-l-l-e_-g-e-r-e-n-t-e_-i-d_-s-c-r-e-e-n_-r-o-u-t-e.html">HIS_CTO_DETALLE_GERENTE_ID_SCREEN_ROUTE</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/core/kotlin-stdlib/kotlin/-string/index.html">String</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-195464455%2FProperties%2F492899073" anchor-label="HISTORIAL_COTIZACION_DETALLE_SCREEN_ROUTE" id="-195464455%2FProperties%2F492899073" data-filterable-set=":app:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":app:dokkaHtml/release" data-filterable-set=":app:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-h-i-s-t-o-r-i-a-l_-c-o-t-i-z-a-c-i-o-n_-d-e-t-a-l-l-e_-s-c-r-e-e-n_-r-o-u-t-e.html"><span>HISTORIAL_</span><wbr></wbr><span>COTIZACION_</span><wbr></wbr><span>DETALLE_</span><wbr></wbr><span>SCREEN_</span><wbr></wbr><span>ROUTE</span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-195464455%2FProperties%2F492899073"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":app:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">const </span><span class="token keyword">val </span><a href="-h-i-s-t-o-r-i-a-l_-c-o-t-i-z-a-c-i-o-n_-d-e-t-a-l-l-e_-s-c-r-e-e-n_-r-o-u-t-e.html">HISTORIAL_COTIZACION_DETALLE_SCREEN_ROUTE</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/core/kotlin-stdlib/kotlin/-string/index.html">String</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1728117832%2FProperties%2F492899073" anchor-label="HISTORIALCOTIZACION_SCREEN_ROUTE" id="1728117832%2FProperties%2F492899073" data-filterable-set=":app:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":app:dokkaHtml/release" data-filterable-set=":app:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-h-i-s-t-o-r-i-a-l-c-o-t-i-z-a-c-i-o-n_-s-c-r-e-e-n_-r-o-u-t-e.html"><span>HISTORIALCOTIZACION_</span><wbr></wbr><span>SCREEN_</span><wbr></wbr><span>ROUTE</span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1728117832%2FProperties%2F492899073"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":app:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">const </span><span class="token keyword">val </span><a href="-h-i-s-t-o-r-i-a-l-c-o-t-i-z-a-c-i-o-n_-s-c-r-e-e-n_-r-o-u-t-e.html">HISTORIALCOTIZACION_SCREEN_ROUTE</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/core/kotlin-stdlib/kotlin/-string/index.html">String</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-876638065%2FProperties%2F492899073" anchor-label="HISTORIALCOTIZACIONG_SCREEN_ROUTE" id="-876638065%2FProperties%2F492899073" data-filterable-set=":app:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":app:dokkaHtml/release" data-filterable-set=":app:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-h-i-s-t-o-r-i-a-l-c-o-t-i-z-a-c-i-o-n-g_-s-c-r-e-e-n_-r-o-u-t-e.html"><span>HISTORIALCOTIZACIONG_</span><wbr></wbr><span>SCREEN_</span><wbr></wbr><span>ROUTE</span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-876638065%2FProperties%2F492899073"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":app:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">const </span><span class="token keyword">val </span><a href="-h-i-s-t-o-r-i-a-l-c-o-t-i-z-a-c-i-o-n-g_-s-c-r-e-e-n_-r-o-u-t-e.html">HISTORIALCOTIZACIONG_SCREEN_ROUTE</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/core/kotlin-stdlib/kotlin/-string/index.html">String</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1942611715%2FProperties%2F492899073" anchor-label="HOME_SCREEN_ROUTE" id="1942611715%2FProperties%2F492899073" data-filterable-set=":app:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":app:dokkaHtml/release" data-filterable-set=":app:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-h-o-m-e_-s-c-r-e-e-n_-r-o-u-t-e.html"><span>HOME_</span><wbr></wbr><span>SCREEN_</span><wbr></wbr><span>ROUTE</span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1942611715%2FProperties%2F492899073"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":app:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">const </span><span class="token keyword">val </span><a href="-h-o-m-e_-s-c-r-e-e-n_-r-o-u-t-e.html">HOME_SCREEN_ROUTE</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/core/kotlin-stdlib/kotlin/-string/index.html">String</a></div><div class="brief "><p class="paragraph">Constante que define la ruta para la pantalla principal o &quot;home&quot; de la aplicación.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="2094480501%2FProperties%2F492899073" anchor-label="LOGIN_SCREEN_ROUTE" id="2094480501%2FProperties%2F492899073" data-filterable-set=":app:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":app:dokkaHtml/release" data-filterable-set=":app:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-l-o-g-i-n_-s-c-r-e-e-n_-r-o-u-t-e.html"><span>LOGIN_</span><wbr></wbr><span>SCREEN_</span><wbr></wbr><span>ROUTE</span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="2094480501%2FProperties%2F492899073"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":app:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">const </span><span class="token keyword">val </span><a href="-l-o-g-i-n_-s-c-r-e-e-n_-r-o-u-t-e.html">LOGIN_SCREEN_ROUTE</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/core/kotlin-stdlib/kotlin/-string/index.html">String</a></div><div class="brief "><p class="paragraph">Constante que define la ruta para la pantalla de inicio de sesión.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1179185064%2FProperties%2F492899073" anchor-label="MAPSUCURSAL_SCREEN_ROUTE" id="1179185064%2FProperties%2F492899073" data-filterable-set=":app:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":app:dokkaHtml/release" data-filterable-set=":app:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-m-a-p-s-u-c-u-r-s-a-l_-s-c-r-e-e-n_-r-o-u-t-e.html"><span>MAPSUCURSAL_</span><wbr></wbr><span>SCREEN_</span><wbr></wbr><span>ROUTE</span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1179185064%2FProperties%2F492899073"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":app:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">const </span><span class="token keyword">val </span><a href="-m-a-p-s-u-c-u-r-s-a-l_-s-c-r-e-e-n_-r-o-u-t-e.html">MAPSUCURSAL_SCREEN_ROUTE</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/core/kotlin-stdlib/kotlin/-string/index.html">String</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="620271912%2FProperties%2F492899073" anchor-label="OFFER_SCREEN_ROUTE" id="620271912%2FProperties%2F492899073" data-filterable-set=":app:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":app:dokkaHtml/release" data-filterable-set=":app:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-o-f-f-e-r_-s-c-r-e-e-n_-r-o-u-t-e.html"><span>OFFER_</span><wbr></wbr><span>SCREEN_</span><wbr></wbr><span>ROUTE</span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="620271912%2FProperties%2F492899073"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":app:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">const </span><span class="token keyword">val </span><a href="-o-f-f-e-r_-s-c-r-e-e-n_-r-o-u-t-e.html">OFFER_SCREEN_ROUTE</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/core/kotlin-stdlib/kotlin/-string/index.html">String</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-384963191%2FProperties%2F492899073" anchor-label="ORDERS_SCREEN_ROUTE" id="-384963191%2FProperties%2F492899073" data-filterable-set=":app:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":app:dokkaHtml/release" data-filterable-set=":app:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-o-r-d-e-r-s_-s-c-r-e-e-n_-r-o-u-t-e.html"><span>ORDERS_</span><wbr></wbr><span>SCREEN_</span><wbr></wbr><span>ROUTE</span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-384963191%2FProperties%2F492899073"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":app:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">const </span><span class="token keyword">val </span><a href="-o-r-d-e-r-s_-s-c-r-e-e-n_-r-o-u-t-e.html">ORDERS_SCREEN_ROUTE</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/core/kotlin-stdlib/kotlin/-string/index.html">String</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-407096787%2FProperties%2F492899073" anchor-label="RUTAVISITADOR_SCREEN_ROUTE" id="-407096787%2FProperties%2F492899073" data-filterable-set=":app:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":app:dokkaHtml/release" data-filterable-set=":app:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-r-u-t-a-v-i-s-i-t-a-d-o-r_-s-c-r-e-e-n_-r-o-u-t-e.html"><span>RUTAVISITADOR_</span><wbr></wbr><span>SCREEN_</span><wbr></wbr><span>ROUTE</span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-407096787%2FProperties%2F492899073"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":app:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">const </span><span class="token keyword">val </span><a href="-r-u-t-a-v-i-s-i-t-a-d-o-r_-s-c-r-e-e-n_-r-o-u-t-e.html">RUTAVISITADOR_SCREEN_ROUTE</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/core/kotlin-stdlib/kotlin/-string/index.html">String</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1723475811%2FProperties%2F492899073" anchor-label="SEARCH_RESULTS_SCREEN_ROUTE" id="1723475811%2FProperties%2F492899073" data-filterable-set=":app:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":app:dokkaHtml/release" data-filterable-set=":app:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-s-e-a-r-c-h_-r-e-s-u-l-t-s_-s-c-r-e-e-n_-r-o-u-t-e.html"><span>SEARCH_</span><wbr></wbr><span>RESULTS_</span><wbr></wbr><span>SCREEN_</span><wbr></wbr><span>ROUTE</span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1723475811%2FProperties%2F492899073"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":app:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">const </span><span class="token keyword">val </span><a href="-s-e-a-r-c-h_-r-e-s-u-l-t-s_-s-c-r-e-e-n_-r-o-u-t-e.html">SEARCH_RESULTS_SCREEN_ROUTE</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/core/kotlin-stdlib/kotlin/-string/index.html">String</a></div><div class="brief "><p class="paragraph">Constante que define la ruta para la pantalla que muestra los resultados de una búsqueda. Incluye un parámetro dinámico <code class="lang-kotlin">{query}</code> para la consulta de búsqueda.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1751466628%2FProperties%2F492899073" anchor-label="SIGNUP_SCREEN_ROUTE" id="-1751466628%2FProperties%2F492899073" data-filterable-set=":app:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":app:dokkaHtml/release" data-filterable-set=":app:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-s-i-g-n-u-p_-s-c-r-e-e-n_-r-o-u-t-e.html"><span>SIGNUP_</span><wbr></wbr><span>SCREEN_</span><wbr></wbr><span>ROUTE</span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1751466628%2FProperties%2F492899073"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":app:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">const </span><span class="token keyword">val </span><a href="-s-i-g-n-u-p_-s-c-r-e-e-n_-r-o-u-t-e.html">SIGNUP_SCREEN_ROUTE</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/core/kotlin-stdlib/kotlin/-string/index.html">String</a></div><div class="brief "><p class="paragraph">Constante que define la ruta para la pantalla de registro de nuevos usuarios.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1413505798%2FProperties%2F492899073" anchor-label="SINGLE_PRODUCT_INFO_ROUTE" id="-1413505798%2FProperties%2F492899073" data-filterable-set=":app:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":app:dokkaHtml/release" data-filterable-set=":app:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-s-i-n-g-l-e_-p-r-o-d-u-c-t_-i-n-f-o_-r-o-u-t-e.html"><span>SINGLE_</span><wbr></wbr><span>PRODUCT_</span><wbr></wbr><span>INFO_</span><wbr></wbr><span>ROUTE</span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1413505798%2FProperties%2F492899073"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":app:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">const </span><span class="token keyword">val </span><a href="-s-i-n-g-l-e_-p-r-o-d-u-c-t_-i-n-f-o_-r-o-u-t-e.html">SINGLE_PRODUCT_INFO_ROUTE</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/core/kotlin-stdlib/kotlin/-string/index.html">String</a></div><div class="brief "><p class="paragraph">Constante que define la ruta para la pantalla que muestra la información detallada de un único producto. Incluye un parámetro dinámico <code class="lang-kotlin">{product_id}</code> para el identificador del producto.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1837720433%2FProperties%2F492899073" anchor-label="SUCCESS_SCREEN_ROUTE" id="-1837720433%2FProperties%2F492899073" data-filterable-set=":app:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":app:dokkaHtml/release" data-filterable-set=":app:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-s-u-c-c-e-s-s_-s-c-r-e-e-n_-r-o-u-t-e.html"><span>SUCCESS_</span><wbr></wbr><span>SCREEN_</span><wbr></wbr><span>ROUTE</span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1837720433%2FProperties%2F492899073"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":app:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">const </span><span class="token keyword">val </span><a href="-s-u-c-c-e-s-s_-s-c-r-e-e-n_-r-o-u-t-e.html">SUCCESS_SCREEN_ROUTE</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/core/kotlin-stdlib/kotlin/-string/index.html">String</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1520785892%2FProperties%2F492899073" anchor-label="SUCURSAL_SCREEN_ROUTE" id="1520785892%2FProperties%2F492899073" data-filterable-set=":app:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":app:dokkaHtml/release" data-filterable-set=":app:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-s-u-c-u-r-s-a-l_-s-c-r-e-e-n_-r-o-u-t-e.html"><span>SUCURSAL_</span><wbr></wbr><span>SCREEN_</span><wbr></wbr><span>ROUTE</span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1520785892%2FProperties%2F492899073"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":app:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">const </span><span class="token keyword">val </span><a href="-s-u-c-u-r-s-a-l_-s-c-r-e-e-n_-r-o-u-t-e.html">SUCURSAL_SCREEN_ROUTE</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/core/kotlin-stdlib/kotlin/-string/index.html">String</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="479987050%2FProperties%2F492899073" anchor-label="TIPO_INGRESO_SCREEN_ROUTE" id="479987050%2FProperties%2F492899073" data-filterable-set=":app:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":app:dokkaHtml/release" data-filterable-set=":app:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-t-i-p-o_-i-n-g-r-e-s-o_-s-c-r-e-e-n_-r-o-u-t-e.html"><span>TIPO_</span><wbr></wbr><span>INGRESO_</span><wbr></wbr><span>SCREEN_</span><wbr></wbr><span>ROUTE</span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="479987050%2FProperties%2F492899073"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":app:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">const </span><span class="token keyword">val </span><a href="-t-i-p-o_-i-n-g-r-e-s-o_-s-c-r-e-e-n_-r-o-u-t-e.html">TIPO_INGRESO_SCREEN_ROUTE</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/core/kotlin-stdlib/kotlin/-string/index.html">String</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1158042259%2FProperties%2F492899073" anchor-label="VISITADORACTIVO_SCREEN_ROUTE" id="-1158042259%2FProperties%2F492899073" data-filterable-set=":app:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":app:dokkaHtml/release" data-filterable-set=":app:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-v-i-s-i-t-a-d-o-r-a-c-t-i-v-o_-s-c-r-e-e-n_-r-o-u-t-e.html"><span>VISITADORACTIVO_</span><wbr></wbr><span>SCREEN_</span><wbr></wbr><span>ROUTE</span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1158042259%2FProperties%2F492899073"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":app:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">const </span><span class="token keyword">val </span><a href="-v-i-s-i-t-a-d-o-r-a-c-t-i-v-o_-s-c-r-e-e-n_-r-o-u-t-e.html">VISITADORACTIVO_SCREEN_ROUTE</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/core/kotlin-stdlib/kotlin/-string/index.html">String</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    <div class="footer">
+        <a href="#content" id="go-to-top-link" class="footer--button footer--button_go-to-top"></a>
+        <span>© 2025 Copyright</span>
+        <span class="pull-right">
+            <span>Generated by </span>
+            <a class="footer--link footer--link_external" href="https://github.com/Kotlin/dokka">
+                <span>dokka</span>
+            </a>
+        </span>
+    </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

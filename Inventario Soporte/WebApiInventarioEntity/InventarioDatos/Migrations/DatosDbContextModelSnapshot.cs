@@ -22,6 +22,30 @@ namespace InventarioDatos.Migrations
 
             MySqlModelBuilderExtensions.AutoIncrementColumns(modelBuilder);
 
+            modelBuilder.Entity("InventarioDatos.Models.Cat_Equipos", b =>
+                {
+                    b.Property<int>("catequipo_id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    MySqlPropertyBuilderExtensions.UseMySqlIdentityColumn(b.Property<int>("catequipo_id"));
+
+                    b.Property<DateTime>("Fecha")
+                        .HasColumnType("datetime(6)");
+
+                    b.Property<int>("catequipo_nombre")
+                        .HasMaxLength(100)
+                        .HasColumnType("int");
+
+                    b.Property<int>("usuario")
+                        .HasMaxLength(100)
+                        .HasColumnType("int");
+
+                    b.HasKey("catequipo_id");
+
+                    b.ToTable("cat_equipos");
+                });
+
             modelBuilder.Entity("InventarioDatos.Models.Departamento", b =>
                 {
                     b.Property<int>("IdDepartamento")

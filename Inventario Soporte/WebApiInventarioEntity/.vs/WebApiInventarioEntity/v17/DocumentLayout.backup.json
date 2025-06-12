@@ -1,36 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Administrador\\Desktop\\Carpeta Lulu\\DavidProyectos\\Inventario Soporte\\WebApiInventarioEntity\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{FE7D60B7-99AD-4D2C-9AF7-212932467EF5}|WebApiInventarioEntity\\WebApiInventarioEntity.csproj|c:\\users\\administrador\\desktop\\carpeta lulu\\davidproyectos\\inventario soporte\\webapiinventarioentity\\webapiinventarioentity\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FE7D60B7-99AD-4D2C-9AF7-212932467EF5}|WebApiInventarioEntity\\WebApiInventarioEntity.csproj|solutionrelative:webapiinventarioentity\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FE7D60B7-99AD-4D2C-9AF7-212932467EF5}|WebApiInventarioEntity\\WebApiInventarioEntity.csproj|c:\\users\\administrador\\desktop\\carpeta lulu\\davidproyectos\\inventario soporte\\webapiinventarioentity\\webapiinventarioentity\\controllers\\ubicacioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FE7D60B7-99AD-4D2C-9AF7-212932467EF5}|WebApiInventarioEntity\\WebApiInventarioEntity.csproj|solutionrelative:webapiinventarioentity\\controllers\\ubicacioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FE7D60B7-99AD-4D2C-9AF7-212932467EF5}|WebApiInventarioEntity\\WebApiInventarioEntity.csproj|c:\\users\\administrador\\desktop\\carpeta lulu\\davidproyectos\\inventario soporte\\webapiinventarioentity\\webapiinventarioentity\\controllers\\rolescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FE7D60B7-99AD-4D2C-9AF7-212932467EF5}|WebApiInventarioEntity\\WebApiInventarioEntity.csproj|solutionrelative:webapiinventarioentity\\controllers\\rolescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FE7D60B7-99AD-4D2C-9AF7-212932467EF5}|WebApiInventarioEntity\\WebApiInventarioEntity.csproj|c:\\users\\administrador\\desktop\\carpeta lulu\\davidproyectos\\inventario soporte\\webapiinventarioentity\\webapiinventarioentity\\controllers\\licenciaoffcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FE7D60B7-99AD-4D2C-9AF7-212932467EF5}|WebApiInventarioEntity\\WebApiInventarioEntity.csproj|solutionrelative:webapiinventarioentity\\controllers\\licenciaoffcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FE7D60B7-99AD-4D2C-9AF7-212932467EF5}|WebApiInventarioEntity\\WebApiInventarioEntity.csproj|c:\\users\\administrador\\desktop\\carpeta lulu\\davidproyectos\\inventario soporte\\webapiinventarioentity\\webapiinventarioentity\\controllers\\equipocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FE7D60B7-99AD-4D2C-9AF7-212932467EF5}|WebApiInventarioEntity\\WebApiInventarioEntity.csproj|solutionrelative:webapiinventarioentity\\controllers\\equipocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FE7D60B7-99AD-4D2C-9AF7-212932467EF5}|WebApiInventarioEntity\\WebApiInventarioEntity.csproj|c:\\users\\administrador\\desktop\\carpeta lulu\\davidproyectos\\inventario soporte\\webapiinventarioentity\\webapiinventarioentity\\controllers\\empleadocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FE7D60B7-99AD-4D2C-9AF7-212932467EF5}|WebApiInventarioEntity\\WebApiInventarioEntity.csproj|solutionrelative:webapiinventarioentity\\controllers\\empleadocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FE7D60B7-99AD-4D2C-9AF7-212932467EF5}|WebApiInventarioEntity\\WebApiInventarioEntity.csproj|c:\\users\\administrador\\desktop\\carpeta lulu\\davidproyectos\\inventario soporte\\webapiinventarioentity\\webapiinventarioentity\\controllers\\departamentocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FE7D60B7-99AD-4D2C-9AF7-212932467EF5}|WebApiInventarioEntity\\WebApiInventarioEntity.csproj|solutionrelative:webapiinventarioentity\\controllers\\departamentocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -38,34 +9,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": -1,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UbicacionController.cs",
-              "DocumentMoniker": "C:\\Users\\Administrador\\Desktop\\Carpeta Lulu\\DavidProyectos\\Inventario Soporte\\WebApiInventarioEntity\\WebApiInventarioEntity\\Controllers\\UbicacionController.cs",
-              "RelativeDocumentMoniker": "WebApiInventarioEntity\\Controllers\\UbicacionController.cs",
-              "ToolTip": "C:\\Users\\Administrador\\Desktop\\Carpeta Lulu\\DavidProyectos\\Inventario Soporte\\WebApiInventarioEntity\\WebApiInventarioEntity\\Controllers\\UbicacionController.cs",
-              "RelativeToolTip": "WebApiInventarioEntity\\Controllers\\UbicacionController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-12T17:06:12.725Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "RolesController.cs",
-              "DocumentMoniker": "C:\\Users\\Administrador\\Desktop\\Carpeta Lulu\\DavidProyectos\\Inventario Soporte\\WebApiInventarioEntity\\WebApiInventarioEntity\\Controllers\\RolesController.cs",
-              "RelativeDocumentMoniker": "WebApiInventarioEntity\\Controllers\\RolesController.cs",
-              "ToolTip": "C:\\Users\\Administrador\\Desktop\\Carpeta Lulu\\DavidProyectos\\Inventario Soporte\\WebApiInventarioEntity\\WebApiInventarioEntity\\Controllers\\RolesController.cs",
-              "RelativeToolTip": "WebApiInventarioEntity\\Controllers\\RolesController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-12T17:06:08.79Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
@@ -73,71 +18,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{c93a910a-0fa6-4307-93a4-f2bd61ec7828}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "LicenciaOffController.cs",
-              "DocumentMoniker": "C:\\Users\\Administrador\\Desktop\\Carpeta Lulu\\DavidProyectos\\Inventario Soporte\\WebApiInventarioEntity\\WebApiInventarioEntity\\Controllers\\LicenciaOffController.cs",
-              "RelativeDocumentMoniker": "WebApiInventarioEntity\\Controllers\\LicenciaOffController.cs",
-              "ToolTip": "C:\\Users\\Administrador\\Desktop\\Carpeta Lulu\\DavidProyectos\\Inventario Soporte\\WebApiInventarioEntity\\WebApiInventarioEntity\\Controllers\\LicenciaOffController.cs",
-              "RelativeToolTip": "WebApiInventarioEntity\\Controllers\\LicenciaOffController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-12T17:06:02.925Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "EquipoController.cs",
-              "DocumentMoniker": "C:\\Users\\Administrador\\Desktop\\Carpeta Lulu\\DavidProyectos\\Inventario Soporte\\WebApiInventarioEntity\\WebApiInventarioEntity\\Controllers\\EquipoController.cs",
-              "RelativeDocumentMoniker": "WebApiInventarioEntity\\Controllers\\EquipoController.cs",
-              "ToolTip": "C:\\Users\\Administrador\\Desktop\\Carpeta Lulu\\DavidProyectos\\Inventario Soporte\\WebApiInventarioEntity\\WebApiInventarioEntity\\Controllers\\EquipoController.cs",
-              "RelativeToolTip": "WebApiInventarioEntity\\Controllers\\EquipoController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-12T17:06:01.142Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "EmpleadoController.cs",
-              "DocumentMoniker": "C:\\Users\\Administrador\\Desktop\\Carpeta Lulu\\DavidProyectos\\Inventario Soporte\\WebApiInventarioEntity\\WebApiInventarioEntity\\Controllers\\EmpleadoController.cs",
-              "RelativeDocumentMoniker": "WebApiInventarioEntity\\Controllers\\EmpleadoController.cs",
-              "ToolTip": "C:\\Users\\Administrador\\Desktop\\Carpeta Lulu\\DavidProyectos\\Inventario Soporte\\WebApiInventarioEntity\\WebApiInventarioEntity\\Controllers\\EmpleadoController.cs",
-              "RelativeToolTip": "WebApiInventarioEntity\\Controllers\\EmpleadoController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-12T17:05:59.246Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "DepartamentoController.cs",
-              "DocumentMoniker": "C:\\Users\\Administrador\\Desktop\\Carpeta Lulu\\DavidProyectos\\Inventario Soporte\\WebApiInventarioEntity\\WebApiInventarioEntity\\Controllers\\DepartamentoController.cs",
-              "RelativeDocumentMoniker": "WebApiInventarioEntity\\Controllers\\DepartamentoController.cs",
-              "ToolTip": "C:\\Users\\Administrador\\Desktop\\Carpeta Lulu\\DavidProyectos\\Inventario Soporte\\WebApiInventarioEntity\\WebApiInventarioEntity\\Controllers\\DepartamentoController.cs",
-              "RelativeToolTip": "WebApiInventarioEntity\\Controllers\\DepartamentoController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-12T17:05:57.507Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UsuarioController.cs",
-              "DocumentMoniker": "C:\\Users\\Administrador\\Desktop\\Carpeta Lulu\\DavidProyectos\\Inventario Soporte\\WebApiInventarioEntity\\WebApiInventarioEntity\\Controllers\\UsuarioController.cs",
-              "RelativeDocumentMoniker": "WebApiInventarioEntity\\Controllers\\UsuarioController.cs",
-              "ToolTip": "C:\\Users\\Administrador\\Desktop\\Carpeta Lulu\\DavidProyectos\\Inventario Soporte\\WebApiInventarioEntity\\WebApiInventarioEntity\\Controllers\\UsuarioController.cs",
-              "RelativeToolTip": "WebApiInventarioEntity\\Controllers\\UsuarioController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-12T17:05:01.858Z",
-              "EditorCaption": ""
             }
           ]
         }

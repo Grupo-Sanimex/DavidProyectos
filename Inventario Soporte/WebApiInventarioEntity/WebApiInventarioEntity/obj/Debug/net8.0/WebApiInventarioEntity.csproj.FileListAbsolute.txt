@@ -739,3 +739,4 @@ C:\Users\Administrador\Desktop\Carpeta Lulu\DavidProyectos\Inventario Soporte\We
 C:\Users\Administrador\Desktop\Carpeta Lulu\DavidProyectos\Inventario Soporte\WebApiInventarioEntity\WebApiInventarioEntity\obj\Debug\net8.0\WebApiInventarioEntity.pdb
 C:\Users\Administrador\Desktop\Carpeta Lulu\DavidProyectos\Inventario Soporte\WebApiInventarioEntity\WebApiInventarioEntity\obj\Debug\net8.0\WebApiInventarioEntity.genruntimeconfig.cache
 C:\Users\Administrador\Desktop\Carpeta Lulu\DavidProyectos\Inventario Soporte\WebApiInventarioEntity\WebApiInventarioEntity\obj\Debug\net8.0\ref\WebApiInventarioEntity.dll
+C:\Users\Administrador\Desktop\Carpeta Lulu\DavidProyectos\Inventario Soporte\WebApiInventarioEntity\WebApiInventarioEntity\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

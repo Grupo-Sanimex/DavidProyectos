@@ -20,6 +20,7 @@ namespace InventarioDatos.Datos
         public DbSet<Usuario> Usuario { get; set; }
         public DbSet<Equipo> Equipo { get; set; }
         public DbSet<LicenciaOffice> LicenciaOffice { get; set; }
+        public DbSet<Cat_Equipos> cat_equipos { get; set; }
 
     }
 }
