@@ -1,0 +1,209 @@
+[
+  {
+    "ContainingType": "WebApiWhatsF.Controllers.PdfDocumentsController",
+    "Method": "GetPdfDocuments",
+    "RelativePath": "api/PdfDocuments",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[WebApiWhatsF.Models.PdfDocument, WebApiWhatsF, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebApiWhatsF.Controllers.PdfDocumentsController",
+    "Method": "PostPdfDocument",
+    "RelativePath": "api/PdfDocuments",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ContentType",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ContentDisposition",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Headers",
+        "Type": "Microsoft.AspNetCore.Http.IHeaderDictionary",
+        "IsRequired": false
+      },
+      {
+        "Name": "Length",
+        "Type": "System.Int64",
+        "IsRequired": false
+      },
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "FileName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "fileName",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApiWhatsF.Controllers.PdfDocumentsController",
+    "Method": "DeletePdfDocument",
+    "RelativePath": "api/PdfDocuments/{documentName}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "documentName",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApiWhatsF.Controllers.PdfDocumentsController",
+    "Method": "EnviarMensajePdf",
+    "RelativePath": "api/PdfDocuments/enviarPdf",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "numeroCliente",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "numeroAcesor",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "nombreCotizacion",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "totalCotizacion",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApiWhatsF.Controllers.PdfDocumentsController",
+    "Method": "EnviarMensajePdfb",
+    "RelativePath": "api/PdfDocuments/enviarPdfb",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "numeroCliente",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "numeroAcesor",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "nombreCotizacion",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "totalCotizacion",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "telefonoSucursal",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApiWhatsF.Controllers.PdfDocumentsController",
+    "Method": "VerPdfDocumentByName",
+    "RelativePath": "api/PdfDocuments/pdf/{name}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "name",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApiWhatsF.Controllers.PdfDocumentsController",
+    "Method": "VerifyWebhook",
+    "RelativePath": "api/PdfDocuments/VerifyWebhook",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "hub_mode",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "hub_challenge",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "hub_verify_token",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApiWhatsF.Controllers.PdfDocumentsController",
+    "Method": "ReceiveWebhook",
+    "RelativePath": "api/PdfDocuments/Webhook",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "payload",
+        "Type": "System.Object",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

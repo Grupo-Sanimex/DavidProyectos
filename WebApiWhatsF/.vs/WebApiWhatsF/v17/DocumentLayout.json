@@ -1,0 +1,164 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Administrador\\Videos\\dwr\\Net8Producion\\Mensajeria\\WebApiWhatsF\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AF41314B-DB30-4B65-9858-5BB732AFCD29}|WebApiWhatsF\\WebApiWhatsF.csproj|c:\\users\\administrador\\videos\\dwr\\net8producion\\mensajeria\\webapiwhatsf\\webapiwhatsf\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF41314B-DB30-4B65-9858-5BB732AFCD29}|WebApiWhatsF\\WebApiWhatsF.csproj|solutionrelative:webapiwhatsf\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF41314B-DB30-4B65-9858-5BB732AFCD29}|WebApiWhatsF\\WebApiWhatsF.csproj|c:\\users\\administrador\\videos\\dwr\\net8producion\\mensajeria\\webapiwhatsf\\webapiwhatsf\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{AF41314B-DB30-4B65-9858-5BB732AFCD29}|WebApiWhatsF\\WebApiWhatsF.csproj|solutionrelative:webapiwhatsf\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF41314B-DB30-4B65-9858-5BB732AFCD29}|WebApiWhatsF\\WebApiWhatsF.csproj|c:\\users\\administrador\\videos\\dwr\\net8producion\\mensajeria\\webapiwhatsf\\webapiwhatsf\\controllers\\pdfdocumentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF41314B-DB30-4B65-9858-5BB732AFCD29}|WebApiWhatsF\\WebApiWhatsF.csproj|solutionrelative:webapiwhatsf\\controllers\\pdfdocumentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF41314B-DB30-4B65-9858-5BB732AFCD29}|WebApiWhatsF\\WebApiWhatsF.csproj|c:\\users\\administrador\\videos\\dwr\\net8producion\\mensajeria\\webapiwhatsf\\webapiwhatsf\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF41314B-DB30-4B65-9858-5BB732AFCD29}|WebApiWhatsF\\WebApiWhatsF.csproj|solutionrelative:webapiwhatsf\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF41314B-DB30-4B65-9858-5BB732AFCD29}|WebApiWhatsF\\WebApiWhatsF.csproj|c:\\users\\administrador\\videos\\dwr\\net8producion\\mensajeria\\webapiwhatsf\\webapiwhatsf\\models\\pdfdocument.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF41314B-DB30-4B65-9858-5BB732AFCD29}|WebApiWhatsF\\WebApiWhatsF.csproj|solutionrelative:webapiwhatsf\\models\\pdfdocument.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF41314B-DB30-4B65-9858-5BB732AFCD29}|WebApiWhatsF\\WebApiWhatsF.csproj|c:\\users\\administrador\\videos\\dwr\\net8producion\\mensajeria\\webapiwhatsf\\webapiwhatsf\\models\\facebookconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF41314B-DB30-4B65-9858-5BB732AFCD29}|WebApiWhatsF\\WebApiWhatsF.csproj|solutionrelative:webapiwhatsf\\models\\facebookconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF41314B-DB30-4B65-9858-5BB732AFCD29}|WebApiWhatsF\\WebApiWhatsF.csproj|c:\\users\\administrador\\videos\\dwr\\net8producion\\mensajeria\\webapiwhatsf\\webapiwhatsf\\servicios\\whatsappservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF41314B-DB30-4B65-9858-5BB732AFCD29}|WebApiWhatsF\\WebApiWhatsF.csproj|solutionrelative:webapiwhatsf\\servicios\\whatsappservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF41314B-DB30-4B65-9858-5BB732AFCD29}|WebApiWhatsF\\WebApiWhatsF.csproj|c:\\users\\administrador\\videos\\dwr\\net8producion\\mensajeria\\webapiwhatsf\\webapiwhatsf\\webapiwhatsf.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{AF41314B-DB30-4B65-9858-5BB732AFCD29}|WebApiWhatsF\\WebApiWhatsF.csproj|solutionrelative:webapiwhatsf\\webapiwhatsf.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{c93a910a-0fa6-4307-93a4-f2bd61ec7828}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Administrador\\Videos\\dwr\\Net8Producion\\Mensajeria\\WebApiWhatsF\\WebApiWhatsF\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "WebApiWhatsF\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\Administrador\\Videos\\dwr\\Net8Producion\\Mensajeria\\WebApiWhatsF\\WebApiWhatsF\\AppDbContext.cs",
+              "RelativeToolTip": "WebApiWhatsF\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T18:43:08.194Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "WebApiWhatsF",
+              "DocumentMoniker": "C:\\Users\\Administrador\\Videos\\dwr\\Net8Producion\\Mensajeria\\WebApiWhatsF\\WebApiWhatsF\\WebApiWhatsF.csproj",
+              "RelativeDocumentMoniker": "WebApiWhatsF\\WebApiWhatsF.csproj",
+              "ToolTip": "C:\\Users\\Administrador\\Videos\\dwr\\Net8Producion\\Mensajeria\\WebApiWhatsF\\WebApiWhatsF\\WebApiWhatsF.csproj",
+              "RelativeToolTip": "WebApiWhatsF\\WebApiWhatsF.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-13T18:24:31.061Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PdfDocumentsController.cs",
+              "DocumentMoniker": "C:\\Users\\Administrador\\Videos\\dwr\\Net8Producion\\Mensajeria\\WebApiWhatsF\\WebApiWhatsF\\Controllers\\PdfDocumentsController.cs",
+              "RelativeDocumentMoniker": "WebApiWhatsF\\Controllers\\PdfDocumentsController.cs",
+              "ToolTip": "C:\\Users\\Administrador\\Videos\\dwr\\Net8Producion\\Mensajeria\\WebApiWhatsF\\WebApiWhatsF\\Controllers\\PdfDocumentsController.cs",
+              "RelativeToolTip": "WebApiWhatsF\\Controllers\\PdfDocumentsController.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAgwAwAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T18:23:54.023Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PdfDocument.cs",
+              "DocumentMoniker": "C:\\Users\\Administrador\\Videos\\dwr\\Net8Producion\\Mensajeria\\WebApiWhatsF\\WebApiWhatsF\\Models\\PdfDocument.cs",
+              "RelativeDocumentMoniker": "WebApiWhatsF\\Models\\PdfDocument.cs",
+              "ToolTip": "C:\\Users\\Administrador\\Videos\\dwr\\Net8Producion\\Mensajeria\\WebApiWhatsF\\WebApiWhatsF\\Models\\PdfDocument.cs",
+              "RelativeToolTip": "WebApiWhatsF\\Models\\PdfDocument.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T18:22:38.748Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FacebookConfig.cs",
+              "DocumentMoniker": "C:\\Users\\Administrador\\Videos\\dwr\\Net8Producion\\Mensajeria\\WebApiWhatsF\\WebApiWhatsF\\Models\\FacebookConfig.cs",
+              "RelativeDocumentMoniker": "WebApiWhatsF\\Models\\FacebookConfig.cs",
+              "ToolTip": "C:\\Users\\Administrador\\Videos\\dwr\\Net8Producion\\Mensajeria\\WebApiWhatsF\\WebApiWhatsF\\Models\\FacebookConfig.cs",
+              "RelativeToolTip": "WebApiWhatsF\\Models\\FacebookConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T18:22:16.585Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "WhatsAppServicio.cs",
+              "DocumentMoniker": "C:\\Users\\Administrador\\Videos\\dwr\\Net8Producion\\Mensajeria\\WebApiWhatsF\\WebApiWhatsF\\Servicios\\WhatsAppServicio.cs",
+              "RelativeDocumentMoniker": "WebApiWhatsF\\Servicios\\WhatsAppServicio.cs",
+              "ToolTip": "C:\\Users\\Administrador\\Videos\\dwr\\Net8Producion\\Mensajeria\\WebApiWhatsF\\WebApiWhatsF\\Servicios\\WhatsAppServicio.cs",
+              "RelativeToolTip": "WebApiWhatsF\\Servicios\\WhatsAppServicio.cs",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAgwAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T18:21:37.085Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Administrador\\Videos\\dwr\\Net8Producion\\Mensajeria\\WebApiWhatsF\\WebApiWhatsF\\Program.cs",
+              "RelativeDocumentMoniker": "WebApiWhatsF\\Program.cs",
+              "ToolTip": "C:\\Users\\Administrador\\Videos\\dwr\\Net8Producion\\Mensajeria\\WebApiWhatsF\\WebApiWhatsF\\Program.cs",
+              "RelativeToolTip": "WebApiWhatsF\\Program.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAUwCAAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T18:20:01.373Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Administrador\\Videos\\dwr\\Net8Producion\\Mensajeria\\WebApiWhatsF\\WebApiWhatsF\\appsettings.json",
+              "RelativeDocumentMoniker": "WebApiWhatsF\\appsettings.json",
+              "ToolTip": "C:\\Users\\Administrador\\Videos\\dwr\\Net8Producion\\Mensajeria\\WebApiWhatsF\\WebApiWhatsF\\appsettings.json",
+              "RelativeToolTip": "WebApiWhatsF\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-13T17:58:03.972Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+.navbar .d-flex {
+    gap: 10px; /* Espacio entre logo y menú */
+  }
+  .modal-fullscreen {
+    padding: 0 !important;
+  }
+  
+  .modal-fullscreen .modal-dialog {
+    max-width: 100vw !important;
+    width: 100vw !important;
+    height: 100vh !important;
+    margin: 0 !important;
+  }
+  
+  .modal-fullscreen .modal-content {
+    height: 100vh !important;
+    border: none !important;
+    border-radius: 0 !important;
+  }
+
+  #map {
+    height: 500px;
+    width: 100%;
+  }
+
+  tfoot tr {
+    font-weight: bold;
+    background-color: #f8f9fa;
+  }
+
+  .flex-grow-1 {
+    flex-grow: 1;
+  }
+  
+  /* Asegurar que el input dentro del contenedor use todo el ancho */
+  .flex-grow-1 .form-control {
+    width: 100%;
+  }
+
+  

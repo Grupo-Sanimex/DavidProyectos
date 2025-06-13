@@ -1,0 +1,358 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "WebApiWhatsF",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/PdfDocuments": {
+      "get": {
+        "tags": [
+          "PdfDocuments"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/PdfDocument"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/PdfDocument"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/PdfDocument"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "PdfDocuments"
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "ContentType": {
+                    "type": "string"
+                  },
+                  "ContentDisposition": {
+                    "type": "string"
+                  },
+                  "Headers": {
+                    "type": "object",
+                    "additionalProperties": {
+                      "type": "array",
+                      "items": {
+                        "type": "string"
+                      }
+                    }
+                  },
+                  "Length": {
+                    "type": "integer",
+                    "format": "int64"
+                  },
+                  "Name": {
+                    "type": "string"
+                  },
+                  "FileName": {
+                    "type": "string"
+                  },
+                  "fileName": {
+                    "type": "string"
+                  }
+                }
+              },
+              "encoding": {
+                "ContentType": {
+                  "style": "form"
+                },
+                "ContentDisposition": {
+                  "style": "form"
+                },
+                "Headers": {
+                  "style": "form"
+                },
+                "Length": {
+                  "style": "form"
+                },
+                "Name": {
+                  "style": "form"
+                },
+                "FileName": {
+                  "style": "form"
+                },
+                "fileName": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/PdfDocuments/pdf/{name}": {
+      "get": {
+        "tags": [
+          "PdfDocuments"
+        ],
+        "parameters": [
+          {
+            "name": "name",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/PdfDocuments/enviarPdf": {
+      "post": {
+        "tags": [
+          "PdfDocuments"
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "numeroCliente": {
+                    "type": "string"
+                  },
+                  "numeroAcesor": {
+                    "type": "string"
+                  },
+                  "nombreCotizacion": {
+                    "type": "string"
+                  },
+                  "totalCotizacion": {
+                    "type": "string"
+                  }
+                }
+              },
+              "encoding": {
+                "numeroCliente": {
+                  "style": "form"
+                },
+                "numeroAcesor": {
+                  "style": "form"
+                },
+                "nombreCotizacion": {
+                  "style": "form"
+                },
+                "totalCotizacion": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/PdfDocuments/enviarPdfb": {
+      "post": {
+        "tags": [
+          "PdfDocuments"
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "numeroCliente": {
+                    "type": "string"
+                  },
+                  "numeroAcesor": {
+                    "type": "string"
+                  },
+                  "nombreCotizacion": {
+                    "type": "string"
+                  },
+                  "totalCotizacion": {
+                    "type": "string"
+                  },
+                  "telefonoSucursal": {
+                    "type": "string"
+                  }
+                }
+              },
+              "encoding": {
+                "numeroCliente": {
+                  "style": "form"
+                },
+                "numeroAcesor": {
+                  "style": "form"
+                },
+                "nombreCotizacion": {
+                  "style": "form"
+                },
+                "totalCotizacion": {
+                  "style": "form"
+                },
+                "telefonoSucursal": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/PdfDocuments/{documentName}": {
+      "delete": {
+        "tags": [
+          "PdfDocuments"
+        ],
+        "parameters": [
+          {
+            "name": "documentName",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/PdfDocuments/Webhook": {
+      "post": {
+        "tags": [
+          "PdfDocuments"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": { }
+            },
+            "text/json": {
+              "schema": { }
+            },
+            "application/*+json": {
+              "schema": { }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/PdfDocuments/VerifyWebhook": {
+      "get": {
+        "tags": [
+          "PdfDocuments"
+        ],
+        "parameters": [
+          {
+            "name": "hub_mode",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "hub_challenge",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "hub_verify_token",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "PdfDocument": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "fileName": {
+            "type": "string",
+            "nullable": true
+          },
+          "fileData": {
+            "type": "string",
+            "format": "byte",
+            "nullable": true
+          },
+          "filePath": {
+            "type": "string",
+            "nullable": true
+          },
+          "contentType": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
+}
